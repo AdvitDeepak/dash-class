@@ -1072,7 +1072,7 @@ and [still need to finish researching this] data attributes.</p>
 </blockquote>
 <p>&nbsp;
 &nbsp;</p>
-<p><center> <img alt="Installation1" src="/assets/chap1-4/01_install1.gif" width="800" /> </center></p>
+<p><center> <img alt="Installation1" src="../../assets/chap1-4/01_install1.gif" width="800" /> </center></p>
 <p>&nbsp;
 &nbsp;</p>
 <p>Next, we must enter the details for our solution.</p>
@@ -1088,7 +1088,7 @@ This subdomain name is used to access your solution (via GraphStudio, for exampl
 </blockquote>
 <p>&nbsp;
 &nbsp;</p>
-<p><center> <img alt="Installation2" src="/assets/chap1-4/01_install2.gif" width="800" /> </center></p>
+<p><center> <img alt="Installation2" src="../../assets/chap1-4/01_install2.gif" width="800" /> </center></p>
 <p>&nbsp;
 &nbsp;</p>
 <p>Once this has been completed, click <strong>“Next”</strong> and then <strong>“Submit”</strong>.</p>
@@ -1115,7 +1115,7 @@ Similarly, edges can be directional, undirected, and even reversed. Each edge ca
 different attributes as well, each with multiple datatypes.</p>
 <p>Hovering over each component, we see that our schema in this Starter Kit consists of:</p>
 <p>&nbsp; &nbsp;</p>
-<p><center> <img alt="Installation3" src="/assets/chap1-4/01_install3.gif" width="800" /> </center></p>
+<p><center> <img alt="Installation3" src="../../assets/chap1-4/01_install3.gif" width="800" /> </center></p>
 <p>&nbsp; &nbsp;</p>
 <blockquote>
 <p>NOTE: This schema can be modified by switching to “Global View” and editing
@@ -1129,7 +1129,7 @@ make sure to check out these resources:
 <p>In order to modify this mapping, we can simply click the <font color='#DD6E0F'> “Edit Data Mapping” </font> icon at the top and select the file and component(s) we wish to map. Next, we click on the source column in the CSV file and match it to the corresponding attribute. When we’re all finished, we can click the <font color='#DD6E0F'> “Publish Data Mapping” </font> icon at the top left corner.</p>
 <p>&nbsp;
 &nbsp;</p>
-<p><center> <img alt="Installation4" src="/assets/chap1-4/01_install4.gif" width="800" /> </center></p>
+<p><center> <img alt="Installation4" src="../../assets/chap1-4/01_install4.gif" width="800" /> </center></p>
 <p>&nbsp;
 &nbsp;</p>
 <p>Everything here looks good!</p>
@@ -1211,7 +1211,7 @@ We'll cover more of these in the ensuing sections!</p>
 <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="mf">127.0.0.1</span><span class="p">:</span><span class="mi">8050</span><span class="o">/</span>
 </code></pre></div>
 <p>Clicking on the link takes us to our first dashboard!</p>
-<p><center> <img alt="App1" src="/assets/chap1-4/02_app1.jpg" /> </center></p>
+<p><center> <img alt="App1" src="../../assets/chap1-4/02_app1.jpg" /> </center></p>
 <p>Great! Albeit, quite simple 😅.</p>
 <p>Breaking it down, we can see that our first line initialized the dash app.
 Since we are running from the Google Colab Notebook, we will use the
@@ -1226,7 +1226,7 @@ belong to this <code>html.Div()</code> element. Each
 children component must be separated by a comma.</p>
 <p>&nbsp; &nbsp;</p>
 <p>We can try adding another <code>html.P</code> (a simple paragraph) to our app:</p>
-<p><img align="right" alt="App2" src="/assets/chap1-4/02_app2.jpg" width="300," /></p>
+<p><img align="right" alt="App2" src="../../assets/chap1-4/02_app2.jpg" width="300," /></p>
 <div class="highlight"><pre><span></span><code>    <span class="n">app</span><span class="o">.</span><span class="n">layout</span> <span class="o">=</span> <span class="n">html</span><span class="o">.</span><span class="n">Div</span><span class="p">(</span><span class="n">children</span><span class="o">=</span><span class="p">[</span>
         <span class="n">html</span><span class="o">.</span><span class="n">P</span><span class="p">(</span><span class="n">children</span><span class="o">=</span><span class="s1">&#39;Hello Dash&#39;</span><span class="p">),</span>
         <span class="n">html</span><span class="o">.</span><span class="n">P</span><span class="p">(</span><span class="err">‘</span><span class="n">Guess</span> <span class="n">who</span><span class="err">’</span><span class="n">s</span> <span class="n">back</span><span class="err">?’</span><span class="p">),</span>
@@ -1237,7 +1237,7 @@ children component must be separated by a comma.</p>
 the second html.P() statement. This is because ‘children’ is optional and
 does not to be specified. For example,</p>
 <p>&nbsp; &nbsp;</p>
-<p><img align="right" alt="App2" src="/assets/chap1-4/02_app2.jpg" width="300," /></p>
+<p><img align="right" alt="App2" src="../../assets/chap1-4/02_app2.jpg" width="300," /></p>
 <div class="highlight"><pre><span></span><code><span class="n">app</span><span class="o">.</span><span class="n">layout</span> <span class="o">=</span> <span class="n">html</span><span class="o">.</span><span class="n">Div</span><span class="p">([</span>
     <span class="n">html</span><span class="o">.</span><span class="n">P</span><span class="p">(</span><span class="s1">&#39;Hello Dash&#39;</span><span class="p">),</span>
     <span class="n">html</span><span class="o">.</span><span class="n">P</span><span class="p">(</span><span class="err">‘</span><span class="n">Guess</span> <span class="n">who</span><span class="err">’</span><span class="n">s</span> <span class="n">back</span><span class="err">?’</span><span class="p">),</span>
@@ -1269,7 +1269,7 @@ All content can simply be wrapped in an <code>html.Div()</code> element.</p>
 <span class="p">])</span>
 </code></pre></div>
 <p>And voila, as seen, our app now looks like the following:</p>
-<p><center> <img alt="ThirdApp" src="/assets/chap1-4/02_app3.jpg" width="700" /> </center></p>
+<p><center> <img alt="ThirdApp" src="../../assets/chap1-4/02_app3.jpg" width="700" /> </center></p>
 <p>These functions can come in quite handy when creating complicated layouts.</p>
 </details>
 <details class="info"><summary>Plotly Pirates' Notes 04</summary><h2 id="transforming-text">Transforming Text<a class="headerlink" href="#transforming-text" title="Permanent link">&para;</a></h2>
@@ -1321,7 +1321,7 @@ All content can simply be wrapped in an <code>html.Div()</code> element.</p>
 </code></pre></div>
 </td></tr></table>
 Here's the resulting output:</p>
-<p><center> <img alt="FourthApp" src="/assets/chap1-4/02_app4.jpg" width="800" /> </center></p>
+<p><center> <img alt="FourthApp" src="../../assets/chap1-4/02_app4.jpg" width="800" /> </center></p>
 <p>Let's break it down, component by component!</p>
 <p>&nbsp; &nbsp;</p>
 <h3 id="html-headers"><strong>HTML Headers</strong><a class="headerlink" href="#html-headers" title="Permanent link">&para;</a></h3>
@@ -1404,7 +1404,7 @@ the header is given <font color='#DD6E0F'>extra padding, margin, and a light-blu
 <span class="n">html</span><span class="o">.</span><span class="n">I</span><span class="p">(</span><span class="s2">&quot;Currently working on Graph title: &quot;</span> <span class="o">+</span> <span class="n">TG_GRAPHNAME</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;color&#39;</span><span class="p">:</span><span class="s1">&#39;blue&#39;</span><span class="p">})</span>
 </code></pre></div>
 </td></tr></table>
-<p><center> <img alt="FifthApp" src="/assets/chap1-4/02_app5.jpg" width="800" /> </center></p>
+<p><center> <img alt="FifthApp" src="../../assets/chap1-4/02_app5.jpg" width="800" /> </center></p>
 <blockquote>
 <p>NOTE: For more information on these two elements, feel free to check out the following:
 <a href="https://dash.plotly.com/dash-html-components/b">html.B()</a>,

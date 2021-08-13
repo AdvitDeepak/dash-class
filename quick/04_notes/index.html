@@ -1122,10 +1122,10 @@
 <span class="n">app</span><span class="o">.</span><span class="n">run_server</span><span class="p">(</span><span class="n">mode</span><span class="o">=</span><span class="s1">&#39;external&#39;</span><span class="p">)</span>
 </code></pre></div>
 <p>And now, running the app will only show us the first page!</p>
-<p><center> <img alt="Page1" src="/assets/chap5-8/07_page1.jpg" width="800" /> </center></p>
+<p><center> <img alt="Page1" src="../../assets/chap5-8/07_page1.jpg" width="800" /> </center></p>
 <p>However, entering the proper link will take us to pages 2 and 3.</p>
-<p><center> <img alt="Page1" src="/assets/chap5-8/07_page2.jpg" width="800" /> </center></p>
-<p><center> <img alt="Page1" src="/assets/chap5-8/07_page3.jpg" width="800" /> </center></p>
+<p><center> <img alt="Page1" src="../../assets/chap5-8/07_page2.jpg" width="800" /> </center></p>
+<p><center> <img alt="Page1" src="../../assets/chap5-8/07_page3.jpg" width="800" /> </center></p>
 <p>&nbsp; &nbsp;</p>
 <p>How are we doing this? Well, using a simple callback...</p>
 <p>As defined below the app layout, the <font color='#DD6E0F'>input is simply the pathname of the current page</font>. The output is the page-content, an <code>html.Div</code> element that we've defined in our app layout. This is where the <strong>importance of element id's</strong> comes into play! <em>For any element that will be updated via a callback, an id is needed.</em></p>
@@ -1138,7 +1138,7 @@
 </blockquote>
 <p>&nbsp; &nbsp;</p>
 <p>Yet entering any other link will lead to a blank page... uh oh!</p>
-<p><center> <img alt="Page4" src="/assets/chap5-8/07_page4.jpg" width="800" /> </center></p>
+<p><center> <img alt="Page4" src="../../assets/chap5-8/07_page4.jpg" width="800" /> </center></p>
 <p>We need to make sure that the user <strong>doesn't accidentally access any unauthorized or unbuilt pages</strong>. They should only be able to access the extension links that we've provided. In order to secure this,
 we can use <font color='#DD6E0F'>Dash Bootstrap...</font></p>
 <h3 id="dash-jumbotron">Dash Jumbotron<a class="headerlink" href="#dash-jumbotron" title="Permanent link">&para;</a></h3>
@@ -1172,7 +1172,7 @@ we can use <font color='#DD6E0F'>Dash Bootstrap...</font></p>
 
 <span class="n">app</span><span class="o">.</span><span class="n">run_server</span><span class="p">(</span><span class="n">mode</span><span class="o">=</span><span class="s1">&#39;external&#39;</span><span class="p">)</span>
 </code></pre></div>
-<p><center> <img alt="Page5" src="/assets/chap5-8/07_page5.jpg" width="800" /> </center></p>
+<p><center> <img alt="Page5" src="../../assets/chap5-8/07_page5.jpg" width="800" /> </center></p>
 <p>And just like that, we've put together a <strong>simple multi-page app!</strong></p>
 <p>In order to modify each page, we can simply change the <code>html.Div()</code> element to contain our page's components. To add pages, we can extend our if/else. Yet as of now, users can <em>only navigate by entering each page's link.</em></p>
 </details>
@@ -1248,8 +1248,8 @@ we can use <font color='#DD6E0F'>Dash Bootstrap...</font></p>
 </code></pre></div>
 <p>&nbsp; &nbsp;</p>
 <p>And here's our dashboard, now with multiple pages!</p>
-<p><center> <img alt="Multi1" src="/assets/chap5-8/07_multi1.jpg" width="800" /> </center></p>
-<p><center> <img alt="Multi2" src="/assets/chap5-8/07_multi2.jpg" width="800" /> </center></p>
+<p><center> <img alt="Multi1" src="../../assets/chap5-8/07_multi1.jpg" width="800" /> </center></p>
+<p><center> <img alt="Multi2" src="../../assets/chap5-8/07_multi2.jpg" width="800" /> </center></p>
 <p>&nbsp; &nbsp;</p>
 <h3 id="dash-links">Dash Links<a class="headerlink" href="#dash-links" title="Permanent link">&para;</a></h3>
 <p>However, having to <font color='#DD6E0F'>manually enter the url for each specific page is <strong>not a good practice</strong>.</font></p>
@@ -1269,7 +1269,7 @@ they wish to reach. Let's take a look!</p>
     <span class="n">html</span><span class="o">.</span><span class="n">Div</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="s1">&#39;page-content&#39;</span><span class="p">)</span>
 <span class="p">])</span>
 </code></pre></div>
-<p><center> <img alt="Link1" src="/assets/chap5-8/07_link1.jpg" width="800" /> </center></p>
+<p><center> <img alt="Link1" src="../../assets/chap5-8/07_link1.jpg" width="800" /> </center></p>
 <p>&nbsp; &nbsp;</p>
 <p>By including the <code>dbc.Row()</code> with our two links outside of <code>html.Div(id='page-content')</code>,
 it remains <font color='#DD6E0F'>static and present in the same location on all pages</font>. However, this may not
@@ -1307,7 +1307,7 @@ we are already on that page. To overcome this, we turn to our <strong>layout var
                   <span class="p">),</span>
               <span class="p">]))</span>
 </code></pre></div>
-<p><center> <img alt="Layout1" src="/assets/chap5-8/07_layout1.gif" width="800" /> </center></p>
+<p><center> <img alt="Layout1" src="../../assets/chap5-8/07_layout1.gif" width="800" /> </center></p>
 <p>Once again, no callbacks needed! This functions perfectly using the <code>app.layout</code> from before.</p>
 </details>
 <blockquote>
@@ -1402,7 +1402,7 @@ we are already on that page. To overcome this, we turn to our <strong>layout var
                   <span class="p">),</span>
               <span class="p">]))</span>
 </code></pre></div>
-<p><center> <img alt="Button1" src="/assets/chap5-8/08_button1.gif" width="800" /> </center></p>
+<p><center> <img alt="Button1" src="../../assets/chap5-8/08_button1.gif" width="800" /> </center></p>
 <p>And that's it. <font color='#DD6E0F'>No callbacks needed, at least for now</font>.</p>
 <p>However, the button does have <em>several other functionalities</em> beyond serving
 as a glorified hyperlink. It can keep track of the <strong>number of clicks</strong>,
@@ -1446,7 +1446,7 @@ serve as a method to <strong>download files</strong>, and be customized to <stro
 
 <span class="n">app</span><span class="o">.</span><span class="n">run_server</span><span class="p">(</span><span class="n">mode</span><span class="o">=</span><span class="s1">&#39;external&#39;</span><span class="p">)</span>
 </code></pre></div>
-<p><center> <img alt="Button2" src="/assets/chap5-8/08_button2.gif" width="800" /> </center></p>
+<p><center> <img alt="Button2" src="../../assets/chap5-8/08_button2.gif" width="800" /> </center></p>
 <p>&nbsp; &nbsp;</p>
 <p>Taking a closer look, we see that the id of the <code>dcc.Input()</code> is used in our callback.
 It's <code>value</code> attribute is passed in as the <font color='#DD6E0F'>sole parameter of our callback function</font>. Additionally,
@@ -1481,7 +1481,7 @@ may able to <font color='#DD6E0F'>search for any valid prescriber within the Gra
 <span class="nb">print</span><span class="p">(</span><span class="n">conn</span><span class="o">.</span><span class="n">gsql</span><span class="p">(</span><span class="n">AllPrescribers</span><span class="p">,</span> <span class="n">options</span><span class="o">=</span><span class="p">[]))</span>
 </code></pre></div>
 <p>Running this query gives us the following output,</p>
-<p><center> <img alt="Page7" src="/assets/chap5-8/08_query1.jpg" width="800" /> </center></p>
+<p><center> <img alt="Page7" src="../../assets/chap5-8/08_query1.jpg" width="800" /> </center></p>
 <p>&nbsp; &nbsp;</p>
 <p>Now, we can package it into the appropriate format as follows.</p>
 <div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">getPresList</span><span class="p">():</span>
@@ -1531,7 +1531,7 @@ real-time <strong>updating of options</strong> based on the user's search terms.
 <p>Breaking it down, we specify the <strong>id</strong>, <strong>placeholder text</strong>, and <strong>list of options</strong>
 for our Dropdown element. Then, within our callback, we simply display the
 chosen value as well as some accompanying text. Here's the result.</p>
-<p><center> <img alt="Dropdown1" src="/assets/chap5-8/08_dropdown1.gif" width="800" /> </center></p>
+<p><center> <img alt="Dropdown1" src="../../assets/chap5-8/08_dropdown1.gif" width="800" /> </center></p>
 <p>&nbsp; &nbsp;</p>
 <p>See, that wasn't so bad! Simple, yet quite powerful.</p>
 <blockquote>
@@ -1647,7 +1647,7 @@ This will return an error when loading the Dash app. <strong><em>This is why <co
 element, while <code>dash.dependencies.Input()</code> is within a list.</em></strong></p>
 </blockquote>
 <p>&nbsp; &nbsp;</p>
-<p><center> <img alt="Dropdown2" src="/assets/chap5-8/08_dropdown2.gif" width="800" /> </center></p>
+<p><center> <img alt="Dropdown2" src="../../assets/chap5-8/08_dropdown2.gif" width="800" /> </center></p>
 <p>And with that, we have the first verison of our dynamic dashboard!</p>
 </details>
 <blockquote>
