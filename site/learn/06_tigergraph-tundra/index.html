@@ -1157,7 +1157,7 @@
                 
                 
                 <h1 id="tigergraph-tundra">TigerGraph Tundra 🐯<a class="headerlink" href="#tigergraph-tundra" title="Permanent link">&para;</a></h1>
-<p><center> <img alt="Page6" src="/assets/banners/section6.svg" width="800" /> </center></p>
+<p><center> <img alt="Page6" src="../../assets/banners/section6.svg" width="800" /> </center></p>
 <p>As we make our way across the delta, the snow-capped mountains begin to encircle
 us. With each passing minute, the <font color='#DD6E0F'>temperature falls while the gusts grow stronger.</font></p>
 <p>Soon, we reach an old wooden sign:</p>
@@ -1192,7 +1192,7 @@ among healthcare providers, claims, and referrals.</p>
 <p>In order to get all vertex types, we run <code>conn.getVertexTypes()</code>. Thes types can then
 be iterated through and the number of vertices belonging to each type can be determined
 via  <code>conn.getVertexCount()</code>. Here's an example!</p>
-<p><img align="right" alt="BasicTG1" src="/assets/chap5-8/06_basicTG1.jpg" /></p>
+<p><img align="right" alt="BasicTG1" src="../../assets/chap5-8/06_basicTG1.jpg" /></p>
 <div class="highlight"><pre><span></span><code><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Vertices </span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
 
 <span class="k">for</span> <span class="n">vertex</span> <span class="ow">in</span> <span class="n">conn</span><span class="o">.</span><span class="n">getVertexTypes</span><span class="p">():</span>
@@ -1200,7 +1200,7 @@ via  <code>conn.getVertexCount()</code>. Here's an example!</p>
 </code></pre></div>
 <p>A <strong>similar methodology</strong> can be used for edges. Simply replace "Vertex" with "Edge",
 giving us <code>conn.getEdgeTypes()</code> and <code>conn.getEdgeCount()</code>:</p>
-<p><img align="right" alt="BasicTG2" src="/assets/chap5-8/06_basicTG2.jpg" /></p>
+<p><img align="right" alt="BasicTG2" src="../../assets/chap5-8/06_basicTG2.jpg" /></p>
 <div class="highlight"><pre><span></span><code><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Edges </span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
 
 <span class="k">for</span> <span class="n">edge</span> <span class="ow">in</span> <span class="n">conn</span><span class="o">.</span><span class="n">getEdgeTypes</span><span class="p">():</span>
@@ -1218,21 +1218,21 @@ free to check out: <a href="https://pytigergraph.github.io/pyTigerGraph/Function
 <p>Our Healthcare Starter Kit comes with <font color='#DD6E0F'>several pre-built queries.</font> Each of them
 and their accompanying GSQL can be found in GraphStudio under the <strong>"Write Queries"</strong>
 tab. Here's a small snippet of what that page looks like:</p>
-<p><center> <img alt="Built1" src="/assets/chap5-8/06_built1.jpg" width="800" /> </center></p>
+<p><center> <img alt="Built1" src="../../assets/chap5-8/06_built1.jpg" width="800" /> </center></p>
 <p>As seen on the left, there are a lot of options to explore!</p>
 <p>However, in this section we will dive into <code>getClaims()</code> and <code>Print_community()</code></p>
 <p>&nbsp; &nbsp;</p>
 <h3 id="getclaims">getClaims<a class="headerlink" href="#getclaims" title="Permanent link">&para;</a></h3>
 <p>The <code>getClaims()</code> query simply returns a <font color='#DD6E0F'>list of all claims of a given prescriber.</font></p>
 <p>Here's a screenshot of the GSQL code (via GraphStudio)</p>
-<p><center> <img alt="Built2" src="/assets/chap5-8/06_built2.jpg" width="800" /> </center></p>
+<p><center> <img alt="Built2" src="../../assets/chap5-8/06_built2.jpg" width="800" /> </center></p>
 <p>In order to access this query from Python, we can use the same <code>conn.runInstalledQuery()</code> as before:</p>
 <div class="highlight"><pre><span></span><code><span class="n">person_num</span> <span class="o">=</span> <span class="s2">&quot;pre78&quot;</span>
 
 <span class="n">claims</span> <span class="o">=</span> <span class="n">conn</span><span class="o">.</span><span class="n">runInstalledQuery</span><span class="p">(</span><span class="s2">&quot;getClaims&quot;</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;inputPrescriber&quot;</span><span class="p">:</span> <span class="n">person_num</span><span class="p">})[</span><span class="mi">0</span><span class="p">][</span><span class="s1">&#39;claims&#39;</span><span class="p">]</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">claims</span><span class="p">)</span>
 </code></pre></div>
-<p><center> <img alt="Built3" src="/assets/chap5-8/06_built3.jpg" width="800" /> </center></p>
+<p><center> <img alt="Built3" src="../../assets/chap5-8/06_built3.jpg" width="800" /> </center></p>
 <p>As seen, the result is a list of claim vertices (established by <code>'v_type':'Claim'</code>). Using
 each claim's <code>attributes</code> dictionary, we can create a few neat visualizations. First, let's process this data...</p>
 <div class="highlight"><pre><span></span><code><span class="n">claims</span> <span class="o">=</span> <span class="n">conn</span><span class="o">.</span><span class="n">runInstalledQuery</span><span class="p">(</span><span class="s2">&quot;getClaims&quot;</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;inputPrescriber&quot;</span><span class="p">:</span> <span class="n">person_num</span><span class="p">})[</span><span class="mi">0</span><span class="p">][</span><span class="s1">&#39;claims&#39;</span><span class="p">]</span>
@@ -1277,7 +1277,7 @@ each claim (ex. "Displaced fracture").</p>
 
 <span class="n">bar</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </code></pre></div>
-<p><center> <img alt="Built4" src="/assets/chap5-8/06_built4.jpg" width="800" /> </center></p>
+<p><center> <img alt="Built4" src="../../assets/chap5-8/06_built4.jpg" width="800" /> </center></p>
 <p>Pretty straightforward now that we've processed our query results!</p>
 <p>&nbsp; &nbsp;</p>
 <h4 id="dash-table">Dash Table<a class="headerlink" href="#dash-table" title="Permanent link">&para;</a></h4>
@@ -1291,13 +1291,13 @@ each claim (ex. "Displaced fracture").</p>
 <span class="p">)</span>
 </code></pre></div>
 <p>Although this won't show until we add the <code>table</code> element to our dashboard, here's a sneak peek of the result!</p>
-<p><center> <img alt="Built5" src="/assets/chap5-8/06_built5.jpg" width="800" /> </center></p>
+<p><center> <img alt="Built5" src="../../assets/chap5-8/06_built5.jpg" width="800" /> </center></p>
 <p>&nbsp; &nbsp;</p>
 <h3 id="print_community">Print_Community<a class="headerlink" href="#print_community" title="Permanent link">&para;</a></h3>
 <p>Next up, we have <code>Print_Community</code>, which <font color='#DD6E0F'>outputs the prescriber network</font> that the
 inputted prescriber belongs to. For example, this is the following result given in
 <strong>GraphStudio</strong> when run with the input of "pre78" (Prescriber 78):</p>
-<p><center> <img alt="Built6" src="/assets/chap5-8/06_built6.jpg" width="800" /> </center></p>
+<p><center> <img alt="Built6" src="../../assets/chap5-8/06_built6.jpg" width="800" /> </center></p>
 <p>In order to replicate this in Dash, we can utilize <code>dash_cytoscape</code>. This package
 allows for the <font color='#DD6E0F'>creation of interactive graphs</font> which can be easily modified and
 embedded into our dashboard.</p>
@@ -1358,7 +1358,7 @@ edge information is stored as <code>{'data': {'id': target, 'label': target}}</c
 cases, source/target are simply vertex IDs.</p>
 <p>&nbsp; &nbsp;</p>
 <p>Although this won't show until we add the <code>network</code> element to our dashboard, here's another sneak peek!</p>
-<p><center> <img alt="Built7" src="/assets/chap5-8/06_built7.jpg" width="800" /> </center></p>
+<p><center> <img alt="Built7" src="../../assets/chap5-8/06_built7.jpg" width="800" /> </center></p>
 <p>&nbsp; &nbsp;</p>
 <blockquote>
 <p>NOTE: For more information, feel free to check out the following resources:
@@ -1420,7 +1420,7 @@ in order to install it.</p>
 </blockquote>
 <p>&nbsp; &nbsp;</p>
 <p>And voila, now we can access this query in GraphStudio as well.</p>
-<p><center> <img alt="Custom1" src="/assets/chap5-8/06_custom1.jpg" width="800" /> </center></p>
+<p><center> <img alt="Custom1" src="../../assets/chap5-8/06_custom1.jpg" width="800" /> </center></p>
 <p><center> <em>Ahh, you may have noticed the three additional queries on the left. Don't worry, that's part of the next section!</em> </center></p>
 <p>&nbsp; &nbsp;</p>
 <p>Let's create a Pie Chart using this data!</p>
@@ -1444,7 +1444,7 @@ in order to install it.</p>
 <p>As the outputted result is a map, we can simply use the <code>.keys()</code> and <code>.values()</code> functions
 in Python in order to access the results. The rest is standard pie chart creation via Plotly Express.
 And ta-da, here's our fantastic figure:</p>
-<p><center> <img alt="Custom2" src="/assets/chap5-8/06_custom2.jpg" width="800" /> </center></p>
+<p><center> <img alt="Custom2" src="../../assets/chap5-8/06_custom2.jpg" width="800" /> </center></p>
 <p>&nbsp; &nbsp;</p>
 <h3 id="commvsreferrals">CommVsReferrals<a class="headerlink" href="#commvsreferrals" title="Permanent link">&para;</a></h3>
 <p>Next up, we can create a query to <font color='#DD6E0F'>determine if having a larger prescriber network</font> corresponds
@@ -1565,7 +1565,7 @@ well as the number of referrals. Because of our <code>AvgAccum</code>, we don't 
 <p>Once again, as the outputted result is a map, we can simply use the <code>.keys()</code>
 and <code>.values()</code> functions in Python in order to access the results. And here's
 the resulting scatter plot.</p>
-<p><center> <img alt="Custom3" src="/assets/chap5-8/06_custom3.jpg" width="800" /> </center></p>
+<p><center> <img alt="Custom3" src="../assets/chap5-8/06_custom3.jpg" width="800" /> </center></p>
 <p>Hmm, a spike around 15 members. A coincidence? Maybe. We'll need more data to find out 😄!</p>
 </details>
 <p>&nbsp; &nbsp;</p>
@@ -1600,7 +1600,7 @@ the resulting scatter plot.</p>
                       <span class="n">horizontal</span><span class="o">=</span><span class="kc">True</span>
                   <span class="p">)</span>
 </code></pre></div>
-<p><center> <img alt="Together1" src="/assets/chap5-8/06_together1.jpg" width="800" /> </center></p>
+<p><center> <img alt="Together1" src="../../assets/chap5-8/06_together1.jpg" width="800" /> </center></p>
 <p>&nbsp; &nbsp;</p>
 <p><strong>Pie, Scatter Chart</strong></p>
 <p>Next up, we'll use our <code>getClaimsPieChart()</code> and <code>getScatterChart()</code> functions from before
@@ -1640,7 +1640,7 @@ to create two cards.</p>
                     <span class="p">}</span>
               <span class="p">)</span>
 </code></pre></div>
-<p><center> <img alt="Together3" src="/assets/chap5-8/06_together3.jpg" width="800" /> </center></p>
+<p><center> <img alt="Together3" src="../../assets/chap5-8/06_together3.jpg" width="800" /> </center></p>
 <p>&nbsp; &nbsp;</p>
 <p><strong>Table, Bar</strong></p>
 <p>We can piece together a function <code>getClaims()</code> that generates our table and bar chart.</p>
@@ -1696,7 +1696,7 @@ to create two cards.</p>
   <span class="k">return</span> <span class="nb">len</span><span class="p">(</span><span class="n">claims</span><span class="p">),</span> <span class="n">table</span><span class="p">,</span> <span class="n">bar</span><span class="p">,</span> <span class="n">max_key</span>
 </code></pre></div>
 <p>This function will also return the number of claims as well as the highest claim category (<code>max_key</code>).</p>
-<p><center> <img alt="Together4" src="/assets/chap5-8/06_together4.jpg" width="800" /> </center></p>
+<p><center> <img alt="Together4" src="../../assets/chap5-8/06_together4.jpg" width="800" /> </center></p>
 <p>&nbsp; &nbsp;</p>
 <p><strong>Network Graph, Prescriber Info</strong></p>
 <p>We can use our <code>getNetwork()</code> function from the "Print_Community" section as well as <code>getClaims()</code>
@@ -1777,7 +1777,7 @@ may seem long, most of it is just stylistic cards!</p>
   <span class="k">return</span> <span class="n">prescriberTitleCard</span><span class="p">,</span> <span class="n">tableCard</span><span class="p">,</span> <span class="n">barCard</span><span class="p">,</span> <span class="n">networkCard</span><span class="p">,</span> <span class="n">network</span>
 </code></pre></div>
 <p>As seen, we store all the figures as variables at the top. Next, we create cards for each.</p>
-<p><center> <img alt="Together5" src="/assets/chap5-8/06_together5.jpg" width="800" /> </center></p>
+<p><center> <img alt="Together5" src="../../assets/chap5-8/06_together5.jpg" width="800" /> </center></p>
 <p>&nbsp; &nbsp;</p>
 <h4 id="dashboard-itself">Dashboard Itself<a class="headerlink" href="#dashboard-itself" title="Permanent link">&para;</a></h4>
 <p>With all of the pieces ready to go, we can finally create our new dashboard.</p>
@@ -1820,7 +1820,7 @@ may seem long, most of it is just stylistic cards!</p>
 <p>This is a good practice for creating dashboards, as it allows for easier modification and testing
 instead of having to scroll through hundreds of lines of card bodies, figures, and more. And now,
 our hard work pays off:</p>
-<p><center> <img alt="Together6" src="/assets/chap5-8/06_together6.jpg" width="800" /> </center></p>
+<p><center> <img alt="Together6" src="../../assets/chap5-8/06_together6.jpg" width="800" /> </center></p>
 </details>
 <p>The TigerGraph protector looks at us and smiles.</p>
 <p><strong><em>"You've come a long way. Yet there's still more to learn in order to complete your quest. Head east,

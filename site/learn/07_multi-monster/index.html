@@ -969,7 +969,7 @@
                 
                 
                 <h1 id="the-multi-page-monsters">The Multi-Page Monsters 🦖<a class="headerlink" href="#the-multi-page-monsters" title="Permanent link">&para;</a></h1>
-<p><center> <img alt="Page7" src="/assets/banners/section7.svg" width="800" /> </center></p>
+<p><center> <img alt="Page7" src="../../assets/banners/section7.svg" width="800" /> </center></p>
 <p>After waving goodbye to our mysterious friend, we trudge onwards through the TigerGraph tundra, hoping to find the <font color='#DD6E0F'> <em>elusive elysium of elements</em> </font> described by the <font color='#DD6E0F'>TigerGraph protector</font>.</p>
 <p>As we make our way in the harsh winds, we hear a roar echoing throughout the valley. Loud stomps grow closer and we clutch our laptop, trembling with panic.</p>
 <p>A booming voice pierces through the bitter cold:</p>
@@ -1006,10 +1006,10 @@
 <span class="n">app</span><span class="o">.</span><span class="n">run_server</span><span class="p">(</span><span class="n">mode</span><span class="o">=</span><span class="s1">&#39;external&#39;</span><span class="p">)</span>
 </code></pre></div>
 <p>And now, running the app will only show us the first page!</p>
-<p><center> <img alt="Page1" src="/assets/chap5-8/07_page1.jpg" width="800" /> </center></p>
+<p><center> <img alt="Page1" src="../../assets/chap5-8/07_page1.jpg" width="800" /> </center></p>
 <p>However, entering the proper link will take us to pages 2 and 3.</p>
-<p><center> <img alt="Page1" src="/assets/chap5-8/07_page2.jpg" width="800" /> </center></p>
-<p><center> <img alt="Page1" src="/assets/chap5-8/07_page3.jpg" width="800" /> </center></p>
+<p><center> <img alt="Page1" src="../../assets/chap5-8/07_page2.jpg" width="800" /> </center></p>
+<p><center> <img alt="Page1" src="../../assets/chap5-8/07_page3.jpg" width="800" /> </center></p>
 <p>&nbsp; &nbsp;</p>
 <p>How are we doing this? Well, using a simple callback...</p>
 <p>As defined below the app layout, the <font color='#DD6E0F'>input is simply the pathname of the current page</font>. The output is the page-content, an <code>html.Div</code> element that we've defined in our app layout. This is where the <strong>importance of element id's</strong> comes into play! <em>For any element that will be updated via a callback, an id is needed.</em></p>
@@ -1022,7 +1022,7 @@
 </blockquote>
 <p>&nbsp; &nbsp;</p>
 <p>Yet entering any other link will lead to a blank page... uh oh!</p>
-<p><center> <img alt="Page4" src="/assets/chap5-8/07_page4.jpg" width="800" /> </center></p>
+<p><center> <img alt="Page4" src="../../assets/chap5-8/07_page4.jpg" width="800" /> </center></p>
 <p>We need to make sure that the user <strong>doesn't accidentally access any unauthorized or unbuilt pages</strong>. They should only be able to access the extension links that we've provided. In order to secure this,
 we can use <font color='#DD6E0F'>Dash Bootstrap...</font></p>
 <h3 id="dash-jumbotron">Dash Jumbotron<a class="headerlink" href="#dash-jumbotron" title="Permanent link">&para;</a></h3>
@@ -1056,7 +1056,7 @@ we can use <font color='#DD6E0F'>Dash Bootstrap...</font></p>
 
 <span class="n">app</span><span class="o">.</span><span class="n">run_server</span><span class="p">(</span><span class="n">mode</span><span class="o">=</span><span class="s1">&#39;external&#39;</span><span class="p">)</span>
 </code></pre></div>
-<p><center> <img alt="Page5" src="/assets/chap5-8/07_page5.jpg" width="800" /> </center></p>
+<p><center> <img alt="Page5" src="../../assets/chap5-8/07_page5.jpg" width="800" /> </center></p>
 <p>And just like that, we've put together a <strong>simple multi-page app!</strong></p>
 <p>In order to modify each page, we can simply change the <code>html.Div()</code> element to contain our page's components. To add pages, we can extend our if/else. Yet as of now, users can <em>only navigate by entering each page's link.</em></p>
 </details>
@@ -1134,8 +1134,8 @@ we can use <font color='#DD6E0F'>Dash Bootstrap...</font></p>
 </code></pre></div>
 <p>&nbsp; &nbsp;</p>
 <p>And here's our dashboard, now with multiple pages!</p>
-<p><center> <img alt="Multi1" src="/assets/chap5-8/07_multi1.jpg" width="800" /> </center></p>
-<p><center> <img alt="Multi2" src="/assets/chap5-8/07_multi2.jpg" width="800" /> </center></p>
+<p><center> <img alt="Multi1" src="../../assets/chap5-8/07_multi1.jpg" width="800" /> </center></p>
+<p><center> <img alt="Multi2" src="../../assets/chap5-8/07_multi2.jpg" width="800" /> </center></p>
 <p>&nbsp; &nbsp;</p>
 <h3 id="dash-links">Dash Links<a class="headerlink" href="#dash-links" title="Permanent link">&para;</a></h3>
 <p>However, having to <font color='#DD6E0F'>manually enter the url for each specific page is <strong>not a good practice</strong>.</font></p>
@@ -1155,7 +1155,7 @@ they wish to reach. Let's take a look!</p>
     <span class="n">html</span><span class="o">.</span><span class="n">Div</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="s1">&#39;page-content&#39;</span><span class="p">)</span>
 <span class="p">])</span>
 </code></pre></div>
-<p><center> <img alt="Link1" src="/assets/chap5-8/07_link1.jpg" width="800" /> </center></p>
+<p><center> <img alt="Link1" src="../../assets/chap5-8/07_link1.jpg" width="800" /> </center></p>
 <p>&nbsp; &nbsp;</p>
 <p>By including the <code>dbc.Row()</code> with our two links outside of <code>html.Div(id='page-content')</code>,
 it remains <font color='#DD6E0F'>static and present in the same location on all pages</font>. However, this may not
@@ -1193,7 +1193,7 @@ we are already on that page. To overcome this, we turn to our <strong>layout var
                   <span class="p">),</span>
               <span class="p">]))</span>
 </code></pre></div>
-<p><center> <img alt="Layout1" src="/assets/chap5-8/07_layout1.gif" width="800" /> </center></p>
+<p><center> <img alt="Layout1" src="../../assets/chap5-8/07_layout1.gif" width="800" /> </center></p>
 <p>Once again, no callbacks needed! This functions perfectly using the <code>app.layout</code> from before.</p>
 </details>
 <p>The first monster paused,</p>
