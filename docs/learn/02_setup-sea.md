@@ -4,7 +4,7 @@ template: overrides/main.html
 
 # Sailing through Setup Sea 🌊
 
-<center> ![Page2](/assets/banners/section2.svg){width=800} </center>
+<center> ![Page2](../assets/banners/section2.svg){width=800} </center>
 
 *“Long ago, <font color='#DD6E0F'> avid data scientists and developers sought for a way to visualize their vast collections of information. </font> Various complicated systems were all used throughout the land. But then, in 2012, a group of four Canadian explorers discovered the power of a tool called Plotly.*
 
@@ -92,7 +92,7 @@ At this point, the pirates pause.
 
     Clicking on the link takes us to our first dashboard!
 
-    <center> ![App1](/assets/chap1-4/02_app1.jpg) </center>
+    <center> ![App1](../assets/chap1-4/02_app1.jpg) </center>
 
     Great! Albeit, quite simple 😅.
 
@@ -116,7 +116,7 @@ At this point, the pirates pause.
 
     We can try adding another `html.P` (a simple paragraph) to our app:
 
-    ![App2](/assets/chap1-4/02_app2.jpg){width=300, align=right}
+    ![App2](../assets/chap1-4/02_app2.jpg){width=300, align=right}
 
     ```python                             
         app.layout = html.Div(children=[
@@ -133,7 +133,7 @@ At this point, the pirates pause.
 
     &nbsp; &nbsp;
 
-    ![App2](/assets/chap1-4/02_app2.jpg){width=300, align=right}
+    ![App2](../assets/chap1-4/02_app2.jpg){width=300, align=right}
 
     ```python
     app.layout = html.Div([
@@ -184,7 +184,7 @@ the island.
 
     And voila, as seen, our app now looks like the following:
 
-    <center> ![ThirdApp](/assets/chap1-4/02_app3.jpg){width=700} </center>
+    <center> ![ThirdApp](../assets/chap1-4/02_app3.jpg){width=700} </center>
 
     These functions can come in quite handy when creating complicated layouts.
 
@@ -229,7 +229,7 @@ The pirates turn and point. In the distance, the faint outline of a port can be 
     ```
     Here's the resulting output:
 
-    <center> ![FourthApp](/assets/chap1-4/02_app4.jpg){width=800} </center>
+    <center> ![FourthApp](../assets/chap1-4/02_app4.jpg){width=800} </center>
 
     Let's break it down, component by component!
 
@@ -317,7 +317,7 @@ The pirates turn and point. In the distance, the faint outline of a port can be 
     ```
 
 
-    <center> ![FifthApp](/assets/chap1-4/02_app5.jpg){width=800} </center>
+    <center> ![FifthApp](../assets/chap1-4/02_app5.jpg){width=800} </center>
 
 
     > NOTE: For more information on these two elements, feel free to check out the following:

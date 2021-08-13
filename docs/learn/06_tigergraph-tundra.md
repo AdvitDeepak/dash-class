@@ -4,7 +4,7 @@ template: overrides/main.html
 
 # TigerGraph Tundra 🐯
 
-<center> ![Page6](/assets/banners/section6.svg){width=800} </center>
+<center> ![Page6](../assets/banners/section6.svg){width=800} </center>
 
 As we make our way across the delta, the snow-capped mountains begin to encircle
 us. With each passing minute, the <font color='#DD6E0F'>temperature falls while the gusts grow stronger.</font>
@@ -61,7 +61,7 @@ We quietly nod as our savior from the storm turns,
     be iterated through and the number of vertices belonging to each type can be determined
     via  `conn.getVertexCount()`. Here's an example!
 
-    ![BasicTG1](/assets/chap5-8/06_basicTG1.jpg){align=right}
+    ![BasicTG1](../assets/chap5-8/06_basicTG1.jpg){align=right}
 
     ```python
     print("Vertices \n")
@@ -76,7 +76,7 @@ We quietly nod as our savior from the storm turns,
     A **similar methodology** can be used for edges. Simply replace "Vertex" with "Edge",
     giving us `conn.getEdgeTypes()` and `conn.getEdgeCount()`:
 
-    ![BasicTG2](/assets/chap5-8/06_basicTG2.jpg){align=right}
+    ![BasicTG2](../assets/chap5-8/06_basicTG2.jpg){align=right}
 
     ```python
     print("Edges \n")
@@ -102,7 +102,7 @@ We quietly nod as our savior from the storm turns,
     and their accompanying GSQL can be found in GraphStudio under the **"Write Queries"**
     tab. Here's a small snippet of what that page looks like:
 
-    <center> ![Built1](/assets/chap5-8/06_built1.jpg){width=800} </center>
+    <center> ![Built1](../assets/chap5-8/06_built1.jpg){width=800} </center>
 
     As seen on the left, there are a lot of options to explore!
 
@@ -116,7 +116,7 @@ We quietly nod as our savior from the storm turns,
 
     Here's a screenshot of the GSQL code (via GraphStudio)
 
-    <center> ![Built2](/assets/chap5-8/06_built2.jpg){width=800} </center>
+    <center> ![Built2](../assets/chap5-8/06_built2.jpg){width=800} </center>
 
     In order to access this query from Python, we can use the same `conn.runInstalledQuery()` as before:
 
@@ -127,7 +127,7 @@ We quietly nod as our savior from the storm turns,
     print(claims)
     ```
 
-    <center> ![Built3](/assets/chap5-8/06_built3.jpg){width=800} </center>
+    <center> ![Built3](../assets/chap5-8/06_built3.jpg){width=800} </center>
 
     As seen, the result is a list of claim vertices (established by `'v_type':'Claim'`). Using
     each claim's `attributes` dictionary, we can create a few neat visualizations. First, let's process this data...
@@ -182,7 +182,7 @@ We quietly nod as our savior from the storm turns,
     bar.show()
     ```
 
-    <center> ![Built4](/assets/chap5-8/06_built4.jpg){width=800} </center>
+    <center> ![Built4](../assets/chap5-8/06_built4.jpg){width=800} </center>
 
     Pretty straightforward now that we've processed our query results!
 
@@ -204,7 +204,7 @@ We quietly nod as our savior from the storm turns,
 
     Although this won't show until we add the `table` element to our dashboard, here's a sneak peek of the result!
 
-    <center> ![Built5](/assets/chap5-8/06_built5.jpg){width=800} </center>
+    <center> ![Built5](../assets/chap5-8/06_built5.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -214,7 +214,7 @@ We quietly nod as our savior from the storm turns,
     inputted prescriber belongs to. For example, this is the following result given in
     **GraphStudio** when run with the input of "pre78" (Prescriber 78):
 
-    <center> ![Built6](/assets/chap5-8/06_built6.jpg){width=800} </center>
+    <center> ![Built6](../assets/chap5-8/06_built6.jpg){width=800} </center>
 
     In order to replicate this in Dash, we can utilize `dash_cytoscape`. This package
     allows for the <font color='#DD6E0F'>creation of interactive graphs</font> which can be easily modified and
@@ -287,7 +287,7 @@ We quietly nod as our savior from the storm turns,
 
     Although this won't show until we add the `network` element to our dashboard, here's another sneak peek!
 
-    <center> ![Built7](/assets/chap5-8/06_built7.jpg){width=800} </center>
+    <center> ![Built7](../assets/chap5-8/06_built7.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -361,7 +361,7 @@ We quietly nod as our savior from the storm turns,
 
     And voila, now we can access this query in GraphStudio as well.
 
-    <center> ![Custom1](/assets/chap5-8/06_custom1.jpg){width=800} </center>
+    <center> ![Custom1](../assets/chap5-8/06_custom1.jpg){width=800} </center>
 
     <center> *Ahh, you may have noticed the three additional queries on the left. Don't worry, that's part of the next section!* </center>
 
@@ -392,7 +392,7 @@ We quietly nod as our savior from the storm turns,
     in Python in order to access the results. The rest is standard pie chart creation via Plotly Express.
     And ta-da, here's our fantastic figure:
 
-    <center> ![Custom2](/assets/chap5-8/06_custom2.jpg){width=800} </center>
+    <center> ![Custom2](../assets/chap5-8/06_custom2.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -538,7 +538,7 @@ We quietly nod as our savior from the storm turns,
     and `.values()` functions in Python in order to access the results. And here's
     the resulting scatter plot.
 
-    <center> ![Custom3](/assets/chap5-8/06_custom3.jpg){width=800} </center>
+    <center> ![Custom3](../assets/chap5-8/06_custom3.jpg){width=800} </center>
 
     Hmm, a spike around 15 members. A coincidence? Maybe. We'll need more data to find out 😄!
 
@@ -586,7 +586,7 @@ We quietly nod as our savior from the storm turns,
                       )
     ```
 
-    <center> ![Together1](/assets/chap5-8/06_together1.jpg){width=800} </center>
+    <center> ![Together1](../assets/chap5-8/06_together1.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -632,7 +632,7 @@ We quietly nod as our savior from the storm turns,
                   )
     ```
 
-    <center> ![Together3](/assets/chap5-8/06_together3.jpg){width=800} </center>
+    <center> ![Together3](../assets/chap5-8/06_together3.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -695,7 +695,7 @@ We quietly nod as our savior from the storm turns,
 
     This function will also return the number of claims as well as the highest claim category (`max_key`).
 
-    <center> ![Together4](/assets/chap5-8/06_together4.jpg){width=800} </center>
+    <center> ![Together4](../assets/chap5-8/06_together4.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -783,7 +783,7 @@ We quietly nod as our savior from the storm turns,
 
     As seen, we store all the figures as variables at the top. Next, we create cards for each.
 
-    <center> ![Together5](/assets/chap5-8/06_together5.jpg){width=800} </center>
+    <center> ![Together5](../assets/chap5-8/06_together5.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -835,7 +835,7 @@ We quietly nod as our savior from the storm turns,
     instead of having to scroll through hundreds of lines of card bodies, figures, and more. And now,
     our hard work pays off:
 
-    <center> ![Together6](/assets/chap5-8/06_together6.jpg){width=800} </center>
+    <center> ![Together6](../assets/chap5-8/06_together6.jpg){width=800} </center>
 
 
 The TigerGraph protector looks at us and smiles.

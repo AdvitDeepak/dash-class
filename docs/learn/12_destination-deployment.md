@@ -4,7 +4,7 @@ template: overrides/main.html
 
 # Destination Deployment ✨
 
-<center> ![Page12](/assets/banners/section12.svg){width=800} </center>
+<center> ![Page12](../assets/banners/section12.svg){width=800} </center>
 
 The figure examined our laptop and smiled,
 
@@ -51,7 +51,7 @@ one last step left before the completion of your adventure: <font color='#DD6E0F
 
     Congratulations! You've **put together (and maybe even deployed)** your dashboard with <font color='#DD6E0F'>TigerGraph + Plotly</font>.
 
-    <center> ![Final1](/assets/chap9-12/12_final1.gif){width=800} </center>
+    <center> ![Final1](../assets/chap9-12/12_final1.gif){width=800} </center>
 
     &nbsp; &nbsp;
 

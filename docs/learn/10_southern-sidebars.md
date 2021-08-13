@@ -4,7 +4,7 @@ template: overrides/main.html
 
 # Southern Sidebars 🌵
 
-<center> ![Page10](/assets/banners/section10.svg){width=800} </center>
+<center> ![Page10](../assets/banners/section10.svg){width=800} </center>
 
 The gecko stared at us quizzicaly.
 
@@ -124,7 +124,7 @@ The gecko looks at our blank stares and gives a wry smile,
 
     And here's the simple sidebar app,
 
-    <center> ![Output1](/assets/chap9-12/10_output1.gif){width=800} </center>
+    <center> ![Output1](../assets/chap9-12/10_output1.gif){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -153,7 +153,7 @@ As we continue to trek across the desert, the gecko begins his next story...
 
     WHITE = "#fffff8"
     TG_LOGO = "https://i.ibb.co/gMMXcQB/Untitled-design-9.png"
-    PLOTLY_LOGO = "https://dash.plotly.com/docs/assets/images/light_plotly_dash_logo.png"
+    PLOTLY_LOGO = "https://dash.plotly.com/docs../assets/images/light_plotly_dash_logo.png"
 
     ```
 
@@ -464,9 +464,9 @@ As we continue to trek across the desert, the gecko begins his next story...
 
     And here's our output, both pages complete with the sidebar!
 
-    <center> ![Sidebar1](/assets/chap9-12/10_sidebar1.jpg){width=800} </center>
+    <center> ![Sidebar1](../assets/chap9-12/10_sidebar1.jpg){width=800} </center>
 
-    <center> ![Sidebar2](/assets/chap9-12/10_sidebar2.jpg){width=800} </center>
+    <center> ![Sidebar2](../assets/chap9-12/10_sidebar2.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 

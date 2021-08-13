@@ -4,7 +4,7 @@ template: overrides/main.html
 
 # The Multi-Page Monsters 🦖
 
-<center> ![Page7](/assets/banners/section7.svg){width=800} </center>
+<center> ![Page7](../assets/banners/section7.svg){width=800} </center>
 
 After waving goodbye to our mysterious friend, we trudge onwards through the TigerGraph tundra, hoping to find the <font color='#DD6E0F'> *elusive elysium of elements* </font> described by the <font color='#DD6E0F'>TigerGraph protector</font>.
 
@@ -61,13 +61,13 @@ In an attempt to reassure our quizzical expressions, they laughed.
 
     And now, running the app will only show us the first page!
 
-    <center> ![Page1](/assets/chap5-8/07_page1.jpg){width=800} </center>
+    <center> ![Page1](../assets/chap5-8/07_page1.jpg){width=800} </center>
 
     However, entering the proper link will take us to pages 2 and 3.
 
-    <center> ![Page1](/assets/chap5-8/07_page2.jpg){width=800} </center>
+    <center> ![Page1](../assets/chap5-8/07_page2.jpg){width=800} </center>
 
-    <center> ![Page1](/assets/chap5-8/07_page3.jpg){width=800} </center>
+    <center> ![Page1](../assets/chap5-8/07_page3.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -88,7 +88,7 @@ In an attempt to reassure our quizzical expressions, they laughed.
 
     Yet entering any other link will lead to a blank page... uh oh!
 
-    <center> ![Page4](/assets/chap5-8/07_page4.jpg){width=800} </center>
+    <center> ![Page4](../assets/chap5-8/07_page4.jpg){width=800} </center>
 
     We need to make sure that the user **doesn't accidentally access any unauthorized or unbuilt pages**. They should only be able to access the extension links that we've provided. In order to secure this,
     we can use <font color='#DD6E0F'>Dash Bootstrap...</font>
@@ -129,7 +129,7 @@ In an attempt to reassure our quizzical expressions, they laughed.
     app.run_server(mode='external')
     ```
 
-    <center> ![Page5](/assets/chap5-8/07_page5.jpg){width=800} </center>
+    <center> ![Page5](../assets/chap5-8/07_page5.jpg){width=800} </center>
 
     And just like that, we've put together a **simple multi-page app!**
 
@@ -227,9 +227,9 @@ In an attempt to reassure our quizzical expressions, they laughed.
 
     And here's our dashboard, now with multiple pages!
 
-    <center> ![Multi1](/assets/chap5-8/07_multi1.jpg){width=800} </center>
+    <center> ![Multi1](../assets/chap5-8/07_multi1.jpg){width=800} </center>
 
-    <center> ![Multi2](/assets/chap5-8/07_multi2.jpg){width=800} </center>
+    <center> ![Multi2](../assets/chap5-8/07_multi2.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -257,7 +257,7 @@ In an attempt to reassure our quizzical expressions, they laughed.
     ])
     ```
 
-    <center> ![Link1](/assets/chap5-8/07_link1.jpg){width=800} </center>
+    <center> ![Link1](../assets/chap5-8/07_link1.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -301,7 +301,7 @@ In an attempt to reassure our quizzical expressions, they laughed.
                   ]))
     ```
 
-    <center> ![Layout1](/assets/chap5-8/07_layout1.gif){width=800} </center>
+    <center> ![Layout1](../assets/chap5-8/07_layout1.gif){width=800} </center>
 
     Once again, no callbacks needed! This functions perfectly using the `app.layout` from before.
 

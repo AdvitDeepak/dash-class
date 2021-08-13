@@ -64,7 +64,7 @@ template: overrides/main.html
 
     Although we haven't included the pages themselves in this example, <font color='#DD6E0F'>clicking the menu items will update the url.</font>
 
-    <center> ![Navbar1](/assets/chap9-12/09_navbar1.gif){width=800} </center>
+    <center> ![Navbar1](../assets/chap9-12/09_navbar1.gif){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -128,13 +128,13 @@ template: overrides/main.html
       return page
     ```
 
-    <center> ![Nav1](/assets/chap9-12/09_nav1.jpg){width=800} </center>
+    <center> ![Nav1](../assets/chap9-12/09_nav1.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
     As seen, the navbar simply contains a <font color='#DD6E0F'>hyperlinked header</font> (that takes one back the main page) and a <font color='#DD6E0F'>dropdown to enter prescriber information</font>. No additional changes need to be made to the callback function. Here's the result!
 
-    <center> ![Navbar2](/assets/chap9-12/09_navbar2.gif){width=800} </center>
+    <center> ![Navbar2](../assets/chap9-12/09_navbar2.gif){width=800} </center>
 
     That helps make the Prescriber Page look a lot better!
 
@@ -260,7 +260,7 @@ template: overrides/main.html
 
     And here's the simple sidebar app,
 
-    <center> ![Output1](/assets/chap9-12/10_output1.gif){width=800} </center>
+    <center> ![Output1](../assets/chap9-12/10_output1.gif){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -285,7 +285,7 @@ template: overrides/main.html
 
     WHITE = "#fffff8"
     TG_LOGO = "https://i.ibb.co/gMMXcQB/Untitled-design-9.png"
-    PLOTLY_LOGO = "https://dash.plotly.com/docs/assets/images/light_plotly_dash_logo.png"
+    PLOTLY_LOGO = "https://dash.plotly.com/docs../assets/images/light_plotly_dash_logo.png"
 
     ```
 
@@ -596,9 +596,9 @@ template: overrides/main.html
 
     And here's our output, both pages complete with the sidebar!
 
-    <center> ![Sidebar1](/assets/chap9-12/10_sidebar1.jpg){width=800} </center>
+    <center> ![Sidebar1](../assets/chap9-12/10_sidebar1.jpg){width=800} </center>
 
-    <center> ![Sidebar2](/assets/chap9-12/10_sidebar2.jpg){width=800} </center>
+    <center> ![Sidebar2](../assets/chap9-12/10_sidebar2.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 

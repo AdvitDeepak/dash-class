@@ -44,13 +44,13 @@ template: overrides/main.html
 
     And now, running the app will only show us the first page!
 
-    <center> ![Page1](/assets/chap5-8/07_page1.jpg){width=800} </center>
+    <center> ![Page1](../assets/chap5-8/07_page1.jpg){width=800} </center>
 
     However, entering the proper link will take us to pages 2 and 3.
 
-    <center> ![Page1](/assets/chap5-8/07_page2.jpg){width=800} </center>
+    <center> ![Page1](../assets/chap5-8/07_page2.jpg){width=800} </center>
 
-    <center> ![Page1](/assets/chap5-8/07_page3.jpg){width=800} </center>
+    <center> ![Page1](../assets/chap5-8/07_page3.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -71,7 +71,7 @@ template: overrides/main.html
 
     Yet entering any other link will lead to a blank page... uh oh!
 
-    <center> ![Page4](/assets/chap5-8/07_page4.jpg){width=800} </center>
+    <center> ![Page4](../assets/chap5-8/07_page4.jpg){width=800} </center>
 
     We need to make sure that the user **doesn't accidentally access any unauthorized or unbuilt pages**. They should only be able to access the extension links that we've provided. In order to secure this,
     we can use <font color='#DD6E0F'>Dash Bootstrap...</font>
@@ -112,7 +112,7 @@ template: overrides/main.html
     app.run_server(mode='external')
     ```
 
-    <center> ![Page5](/assets/chap5-8/07_page5.jpg){width=800} </center>
+    <center> ![Page5](../assets/chap5-8/07_page5.jpg){width=800} </center>
 
     And just like that, we've put together a **simple multi-page app!**
 
@@ -206,9 +206,9 @@ template: overrides/main.html
 
     And here's our dashboard, now with multiple pages!
 
-    <center> ![Multi1](/assets/chap5-8/07_multi1.jpg){width=800} </center>
+    <center> ![Multi1](../assets/chap5-8/07_multi1.jpg){width=800} </center>
 
-    <center> ![Multi2](/assets/chap5-8/07_multi2.jpg){width=800} </center>
+    <center> ![Multi2](../assets/chap5-8/07_multi2.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -236,7 +236,7 @@ template: overrides/main.html
     ])
     ```
 
-    <center> ![Link1](/assets/chap5-8/07_link1.jpg){width=800} </center>
+    <center> ![Link1](../assets/chap5-8/07_link1.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -280,7 +280,7 @@ template: overrides/main.html
                   ]))
     ```
 
-    <center> ![Layout1](/assets/chap5-8/07_layout1.gif){width=800} </center>
+    <center> ![Layout1](../assets/chap5-8/07_layout1.gif){width=800} </center>
 
     Once again, no callbacks needed! This functions perfectly using the `app.layout` from before.
 
@@ -390,7 +390,7 @@ template: overrides/main.html
                   ]))
     ```
 
-    <center> ![Button1](/assets/chap5-8/08_button1.gif){width=800} </center>
+    <center> ![Button1](../assets/chap5-8/08_button1.gif){width=800} </center>
 
     And that's it. <font color='#DD6E0F'>No callbacks needed, at least for now</font>.
 
@@ -442,7 +442,7 @@ template: overrides/main.html
     app.run_server(mode='external')
     ```
 
-    <center> ![Button2](/assets/chap5-8/08_button2.gif){width=800} </center>
+    <center> ![Button2](../assets/chap5-8/08_button2.gif){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -488,7 +488,7 @@ template: overrides/main.html
 
     Running this query gives us the following output,
 
-    <center> ![Page7](/assets/chap5-8/08_query1.jpg){width=800} </center>
+    <center> ![Page7](../assets/chap5-8/08_query1.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -555,7 +555,7 @@ template: overrides/main.html
     for our Dropdown element. Then, within our callback, we simply display the
     chosen value as well as some accompanying text. Here's the result.
 
-    <center> ![Dropdown1](/assets/chap5-8/08_dropdown1.gif){width=800} </center>
+    <center> ![Dropdown1](../assets/chap5-8/08_dropdown1.gif){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -678,7 +678,7 @@ template: overrides/main.html
 
     &nbsp; &nbsp;
 
-    <center> ![Dropdown2](/assets/chap5-8/08_dropdown2.gif){width=800} </center>
+    <center> ![Dropdown2](../assets/chap5-8/08_dropdown2.gif){width=800} </center>
 
     And with that, we have the first verison of our dynamic dashboard!
 

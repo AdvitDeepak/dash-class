@@ -4,7 +4,7 @@ template: overrides/main.html
 
 # Northern Navbars ⛄️
 
-<center> ![Page9](/assets/banners/section9.svg){width=800} </center>
+<center> ![Page9](../assets/banners/section9.svg){width=800} </center>
 
 As we cross the Tundra, the snow begins to melt, leaving behind vast expanses of dirt and vegetation.
 Soon, a strange sight crosses our eye. In the distance, there appears to be a *snowman meandering slowly*
@@ -77,7 +77,7 @@ Stranger and stranger! Pulling out our laptop, we began to listen...
 
     Although we haven't included the pages themselves in this example, <font color='#DD6E0F'>clicking the menu items will update the url.</font>
 
-    <center> ![Navbar1](/assets/chap9-12/09_navbar1.gif){width=800} </center>
+    <center> ![Navbar1](../assets/chap9-12/09_navbar1.gif){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -147,13 +147,13 @@ The snowman excitedly exclaimed,
       return page
     ```
 
-    <center> ![Nav1](/assets/chap9-12/09_nav1.jpg){width=800} </center>
+    <center> ![Nav1](../assets/chap9-12/09_nav1.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
     As seen, the navbar simply contains a <font color='#DD6E0F'>hyperlinked header</font> (that takes one back the main page) and a <font color='#DD6E0F'>dropdown to enter prescriber information</font>. No additional changes need to be made to the callback function. Here's the result!
 
-    <center> ![Navbar2](/assets/chap9-12/09_navbar2.gif){width=800} </center>
+    <center> ![Navbar2](../assets/chap9-12/09_navbar2.gif){width=800} </center>
 
     That helps make the Prescriber Page look a lot better!
 

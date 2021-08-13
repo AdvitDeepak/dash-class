@@ -4,7 +4,7 @@ template: overrides/main.html
 
 # Installation Island 🏝️
 
-<center> ![Page1](/assets/banners/section1.svg){width=800} </center>
+<center> ![Page1](../assets/banners/section1.svg){width=800} </center>
 
 *As the moon melts on the horizon, we wake up to find ourselves in a strange place.*
 
@@ -76,7 +76,7 @@ and begin to examine each.
     &nbsp;
     &nbsp;
 
-    <center> ![Installation1](/assets/chap1-4/01_install1.gif){width=800} </center>
+    <center> ![Installation1](../assets/chap1-4/01_install1.gif){width=800} </center>
 
     &nbsp;
     &nbsp;
@@ -95,7 +95,7 @@ and begin to examine each.
     &nbsp;
     &nbsp;
 
-    <center> ![Installation2](/assets/chap1-4/01_install2.gif){width=800} </center>
+    <center> ![Installation2](../assets/chap1-4/01_install2.gif){width=800} </center>
 
     &nbsp;
     &nbsp;
@@ -139,7 +139,7 @@ After reading through the first manuscript, we reach for the second one...
 
     &nbsp; &nbsp;
 
-    <center> ![Installation3](/assets/chap1-4/01_install3.gif){width=800} </center>
+    <center> ![Installation3](../assets/chap1-4/01_install3.gif){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -159,7 +159,7 @@ After reading through the first manuscript, we reach for the second one...
     &nbsp;
     &nbsp;
 
-    <center> ![Installation4](/assets/chap1-4/01_install4.gif){width=800} </center>
+    <center> ![Installation4](../assets/chap1-4/01_install4.gif){width=800} </center>
 
     &nbsp;
     &nbsp;

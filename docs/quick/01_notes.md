@@ -29,7 +29,7 @@ template: overrides/main.html
     &nbsp;
     &nbsp;
 
-    <center> ![Installation1](/assets/chap1-4/01_install1.gif){width=800} </center>
+    <center> ![Installation1](../assets/chap1-4/01_install1.gif){width=800} </center>
 
     &nbsp;
     &nbsp;
@@ -48,7 +48,7 @@ template: overrides/main.html
     &nbsp;
     &nbsp;
 
-    <center> ![Installation2](/assets/chap1-4/01_install2.gif){width=800} </center>
+    <center> ![Installation2](../assets/chap1-4/01_install2.gif){width=800} </center>
 
     &nbsp;
     &nbsp;
@@ -86,7 +86,7 @@ template: overrides/main.html
 
     &nbsp; &nbsp;
 
-    <center> ![Installation3](/assets/chap1-4/01_install3.gif){width=800} </center>
+    <center> ![Installation3](../assets/chap1-4/01_install3.gif){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -106,7 +106,7 @@ template: overrides/main.html
     &nbsp;
     &nbsp;
 
-    <center> ![Installation4](/assets/chap1-4/01_install4.gif){width=800} </center>
+    <center> ![Installation4](../assets/chap1-4/01_install4.gif){width=800} </center>
 
     &nbsp;
     &nbsp;
@@ -229,7 +229,7 @@ template: overrides/main.html
 
     Clicking on the link takes us to our first dashboard!
 
-    <center> ![App1](/assets/chap1-4/02_app1.jpg) </center>
+    <center> ![App1](../assets/chap1-4/02_app1.jpg) </center>
 
     Great! Albeit, quite simple 😅.
 
@@ -253,7 +253,7 @@ template: overrides/main.html
 
     We can try adding another `html.P` (a simple paragraph) to our app:
 
-    ![App2](/assets/chap1-4/02_app2.jpg){width=300, align=right}
+    ![App2](../assets/chap1-4/02_app2.jpg){width=300, align=right}
 
     ```python                             
         app.layout = html.Div(children=[
@@ -270,7 +270,7 @@ template: overrides/main.html
 
     &nbsp; &nbsp;
 
-    ![App2](/assets/chap1-4/02_app2.jpg){width=300, align=right}
+    ![App2](../assets/chap1-4/02_app2.jpg){width=300, align=right}
 
     ```python
     app.layout = html.Div([
@@ -313,7 +313,7 @@ template: overrides/main.html
 
     And voila, as seen, our app now looks like the following:
 
-    <center> ![ThirdApp](/assets/chap1-4/02_app3.jpg){width=700} </center>
+    <center> ![ThirdApp](../assets/chap1-4/02_app3.jpg){width=700} </center>
 
     These functions can come in quite handy when creating complicated layouts.
 
@@ -351,7 +351,7 @@ template: overrides/main.html
     ```
     Here's the resulting output:
 
-    <center> ![FourthApp](/assets/chap1-4/02_app4.jpg){width=800} </center>
+    <center> ![FourthApp](../assets/chap1-4/02_app4.jpg){width=800} </center>
 
     Let's break it down, component by component!
 
@@ -439,7 +439,7 @@ template: overrides/main.html
     ```
 
 
-    <center> ![FifthApp](/assets/chap1-4/02_app5.jpg){width=800} </center>
+    <center> ![FifthApp](../assets/chap1-4/02_app5.jpg){width=800} </center>
 
 
     > NOTE: For more information on these two elements, feel free to check out the following:

@@ -4,7 +4,7 @@ template: overrides/main.html
 
 # Dash’s Delta 🌿
 
-<center> ![Page4](/assets/banners/section4.svg){width=800} </center>
+<center> ![Page4](../assets/banners/section4.svg){width=800} </center>
 
 As we follow the meandering coastline, we catch sight of the mouth of the rivers heading inland.
 
@@ -106,7 +106,7 @@ We turn to the next stone and continue to read...
     app.run_server(mode='external')
     ```
 
-    <center> ![BarChart1](/assets/chap1-4/04_barChart1.jpg){width=800} </center>
+    <center> ![BarChart1](../assets/chap1-4/04_barChart1.jpg){width=800} </center>
 
     >NOTE: The `id` attribute is <font color='#DD6E0F'>optional, but it's a good practice to include a unique ID</font> for each component.
     This is especially true for updating figures, which will be covered in a later chapter, *"Confronted by Callbacks"*
@@ -177,7 +177,7 @@ Continuing down the circle, we find the next stone, "Dash Cards"...
 
     And voila, here's our result:
 
-    <center> ![Card1](/assets/chap1-4/04_card1.jpg){width=800} </center>
+    <center> ![Card1](../assets/chap1-4/04_card1.jpg){width=800} </center>
 
     Let's try changing some of the colors!
 
@@ -215,7 +215,7 @@ Continuing down the circle, we find the next stone, "Dash Cards"...
     app.run_server(mode='external')
     ```
 
-    <center> ![Card2](/assets/chap1-4/04_card2.jpg){width=800} </center>
+    <center> ![Card2](../assets/chap1-4/04_card2.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -259,7 +259,7 @@ Continuing down the circle, we find the next stone, "Dash Cards"...
     app.run_server(mode='external')
     ```
 
-    <center> ![Card3](/assets/chap1-4/04_card3.jpg){width=800} </center>
+    <center> ![Card3](../assets/chap1-4/04_card3.jpg){width=800} </center>
 
     There we go, much better now!
 
@@ -523,7 +523,7 @@ The stone adjacent to this one is titled "Dash Layout"...
 
     app.run_server(mode='external')  
     ```
-    <center> ![Row1](/assets/chap1-4/04_row1.jpg){width=800} </center>
+    <center> ![Row1](../assets/chap1-4/04_row1.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -560,7 +560,7 @@ The stone adjacent to this one is titled "Dash Layout"...
     app.run_server(mode='external')
     ```
 
-    <center> ![Row2](/assets/chap1-4/04_row2.jpg){width=800} </center>
+    <center> ![Row2](../assets/chap1-4/04_row2.jpg){width=800} </center>
 
     Alright! That looks pretty good so far! Now, let's take a look at adding columns...
 
@@ -602,7 +602,7 @@ The stone adjacent to this one is titled "Dash Layout"...
     app.run_server(mode='external')
     ```
 
-    <center> ![Col1](/assets/chap1-4/04_col1.jpg){width=800} </center>
+    <center> ![Col1](../assets/chap1-4/04_col1.jpg){width=800} </center>
 
     As seen, the row automatically expands in length in order to accommodate for the column's
     vertical height. In order to adjust the column's width, we can use the `width` argument.
@@ -646,7 +646,7 @@ The stone adjacent to this one is titled "Dash Layout"...
     app.run_server(mode='external')
     ```
 
-    <center> ![Col2](/assets/chap1-4/04_col2.jpg){width=800} </center>
+    <center> ![Col2](../assets/chap1-4/04_col2.jpg){width=800} </center>
 
 
     Our dashboard already looks quite stunning. All this, in just four quick chapters 🤩😄.

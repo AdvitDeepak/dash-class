@@ -5,7 +5,7 @@ template: overrides/main.html
 
 # Confronted by Callbacks 🦕
 
-<center> ![Page8](/assets/banners/section8.svg){width=800} </center>
+<center> ![Page8](../assets/banners/section8.svg){width=800} </center>
 
 The second monster grinned,
 
@@ -118,7 +118,7 @@ The second monster laughed. Tracing words into the snow, he began to explain...
                   ]))
     ```
 
-    <center> ![Button1](/assets/chap5-8/08_button1.gif){width=800} </center>
+    <center> ![Button1](../assets/chap5-8/08_button1.gif){width=800} </center>
 
     And that's it. <font color='#DD6E0F'>No callbacks needed, at least for now</font>.
 
@@ -170,7 +170,7 @@ The second monster laughed. Tracing words into the snow, he began to explain...
     app.run_server(mode='external')
     ```
 
-    <center> ![Button2](/assets/chap5-8/08_button2.gif){width=800} </center>
+    <center> ![Button2](../assets/chap5-8/08_button2.gif){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -220,7 +220,7 @@ The second monster laughed. Tracing words into the snow, he began to explain...
 
     Running this query gives us the following output,
 
-    <center> ![Page7](/assets/chap5-8/08_query1.jpg){width=800} </center>
+    <center> ![Page7](../assets/chap5-8/08_query1.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -287,7 +287,7 @@ The second monster laughed. Tracing words into the snow, he began to explain...
     for our Dropdown element. Then, within our callback, we simply display the
     chosen value as well as some accompanying text. Here's the result.
 
-    <center> ![Dropdown1](/assets/chap5-8/08_dropdown1.gif){width=800} </center>
+    <center> ![Dropdown1](../assets/chap5-8/08_dropdown1.gif){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -410,7 +410,7 @@ The second monster laughed. Tracing words into the snow, he began to explain...
 
     &nbsp; &nbsp;
 
-    <center> ![Dropdown2](/assets/chap5-8/08_dropdown2.gif){width=800} </center>
+    <center> ![Dropdown2](../assets/chap5-8/08_dropdown2.gif){width=800} </center>
 
     And with that, we have the first verison of our dynamic dashboard!
 

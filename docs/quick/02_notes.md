@@ -82,9 +82,9 @@ template: overrides/main.html
 
     In both cases, we get the same result. And voila, here are our two bar charts!
 
-    <center> ![BarChart1](/assets/chap1-4/03_barChart1.jpg){width=800} </center>
+    <center> ![BarChart1](../assets/chap1-4/03_barChart1.jpg){width=800} </center>
 
-    <center> ![BarChart2](/assets/chap1-4/03_barChart2.jpg){width=800} </center>
+    <center> ![BarChart2](../assets/chap1-4/03_barChart2.jpg){width=800} </center>
 
     Ahh, you may have noticed a small difference: **the axis labels!**
 
@@ -125,7 +125,7 @@ template: overrides/main.html
     bar.show()
     ```
 
-    <center> ![BarChart3](/assets/chap1-4/03_barChart3.jpg){width=800} </center>
+    <center> ![BarChart3](../assets/chap1-4/03_barChart3.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -143,7 +143,7 @@ template: overrides/main.html
     bar.show()
     ```
 
-    <center> ![BarChart4](/assets/chap1-4/03_barChart4.jpg){width=800} </center>
+    <center> ![BarChart4](../assets/chap1-4/03_barChart4.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -161,7 +161,7 @@ template: overrides/main.html
     bar.show()
     ```
 
-    <center> ![BarChart5](/assets/chap1-4/03_barChart5.jpg){width=800} </center>
+    <center> ![BarChart5](../assets/chap1-4/03_barChart5.jpg){width=800} </center>
 
 
     As seen, it's just a matter of adding the **"color"** argument!
@@ -182,7 +182,7 @@ template: overrides/main.html
     bar.show()
     ```
 
-    <center> ![BarChart6](/assets/chap1-4/03_barChart6.jpg){width=800} </center>
+    <center> ![BarChart6](../assets/chap1-4/03_barChart6.jpg){width=800} </center>
 
     > NOTE: As mentioned in the above comments, we've had to <font color='#DD6E0F'>switch the axes in this horizontal layout!</font>
 
@@ -201,7 +201,7 @@ template: overrides/main.html
     bar.show()
     ```
 
-    <center> ![BarChart7](/assets/chap1-4/03_barChart7.jpg){width=800} </center>
+    <center> ![BarChart7](../assets/chap1-4/03_barChart7.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -232,7 +232,7 @@ template: overrides/main.html
     bar.show()
     ```
 
-    <center> ![BarChart8](/assets/chap1-4/03_barChart8.jpg){width=800} </center>
+    <center> ![BarChart8](../assets/chap1-4/03_barChart8.jpg){width=800} </center>
 
     > NOTE: For more information, make sure to check out the following:
     [Plotly Bar Charts](https://plotly.com/python/bar-charts/),
@@ -285,9 +285,9 @@ template: overrides/main.html
 
     In both cases, we get the same result. And voila, here are our two line charts!
 
-    <center> ![BarChart1](/assets/chap1-4/03_lineChart1.jpg){width=800} </center>
+    <center> ![BarChart1](../assets/chap1-4/03_lineChart1.jpg){width=800} </center>
 
-    <center> ![BarChart2](/assets/chap1-4/03_lineChart2.jpg){width=800} </center>
+    <center> ![BarChart2](../assets/chap1-4/03_lineChart2.jpg){width=800} </center>
 
     ### Styling Figure
 
@@ -325,7 +325,7 @@ template: overrides/main.html
     ```
     Each trace adds a new line (the name `go.Scatter()` is a bit misleading!)
 
-    <center> ![LineChart3](/assets/chap1-4/03_lineChart3.jpg){width=800} </center>
+    <center> ![LineChart3](../assets/chap1-4/03_lineChart3.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -349,7 +349,7 @@ template: overrides/main.html
     Adding the `marker=dict(color='MediumPurple')` dictionary allows us to change the color of the two traces.
     Additionally, the `name` argument lets us distinguish and label the two traces. Here's the result!
 
-    <center> ![LineChart4](/assets/chap1-4/03_lineChart4.jpg){width=800} </center>
+    <center> ![LineChart4](../assets/chap1-4/03_lineChart4.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -375,7 +375,7 @@ template: overrides/main.html
 
     As seen below, the size and symbols for each trace can be customized as well!
 
-    <center> ![LineChart5](/assets/chap1-4/03_lineChart5.jpg){width=800} </center>
+    <center> ![LineChart5](../assets/chap1-4/03_lineChart5.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -409,7 +409,7 @@ template: overrides/main.html
     line.show()
     ```
 
-    <center> ![LineChart6](/assets/chap1-4/03_lineChart6.jpg){width=800} </center>
+    <center> ![LineChart6](../assets/chap1-4/03_lineChart6.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -462,9 +462,9 @@ template: overrides/main.html
 
     In both cases, we get the same result. And voila, here are our two bar charts!
 
-    <center> ![PieChart1](/assets/chap1-4/03_pieChart1.jpg){width=800} </center>
+    <center> ![PieChart1](../assets/chap1-4/03_pieChart1.jpg){width=800} </center>
 
-    <center> ![PieChart1](/assets/chap1-4/03_pieChart1.jpg){width=800} </center>
+    <center> ![PieChart1](../assets/chap1-4/03_pieChart1.jpg){width=800} </center>
 
     Unlike with bar charts and line charts, there are truly no differences between
     each!
@@ -500,7 +500,7 @@ template: overrides/main.html
     pie.show()
     ```
 
-    <center> ![PieChart2](/assets/chap1-4/03_pieChart2.jpg){width=800} </center>
+    <center> ![PieChart2](../assets/chap1-4/03_pieChart2.jpg){width=800} </center>
 
     The title can be centered with the `title_x` argument, which ranges from 0 to 1.
     Therefore, setting its value to 0.5 will result in a centered title. Additionally,
@@ -523,7 +523,7 @@ template: overrides/main.html
 
     And here's our centered title (relative to the pie chart).
 
-    <center> ![PieChart3](/assets/chap1-4/03_pieChart3.jpg){width=800} </center>
+    <center> ![PieChart3](../assets/chap1-4/03_pieChart3.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -549,7 +549,7 @@ template: overrides/main.html
     pie.show()
     ```
 
-    <center> ![PieChart4](/assets/chap1-4/03_pieChart4.jpg){width=800} </center>
+    <center> ![PieChart4](../assets/chap1-4/03_pieChart4.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -576,7 +576,7 @@ template: overrides/main.html
     pie.show()
     ```
 
-    <center> ![PieChart5](/assets/chap1-4/03_pieChart5.jpg){width=800} </center>
+    <center> ![PieChart5](../assets/chap1-4/03_pieChart5.jpg){width=800} </center>
 
     The length of `pull` matches the length of `animals`.
 
@@ -607,7 +607,7 @@ template: overrides/main.html
     pie.show()  
     ```
 
-    <center> ![PieChart6](/assets/chap1-4/03_pieChart6.jpg){width=800} </center>
+    <center> ![PieChart6](../assets/chap1-4/03_pieChart6.jpg){width=800} </center>
 
     Neat! And with that, we have a rather fancy pie chart put together in less than a dozen lines of code!
 
@@ -644,7 +644,7 @@ template: overrides/main.html
     scatter.show()
     ```
 
-    <center> ![ScatterPlot1](/assets/chap1-4/03_scatterPlot1.jpg){width=800} </center>
+    <center> ![ScatterPlot1](../assets/chap1-4/03_scatterPlot1.jpg){width=800} </center>
 
     Looking good, but let's add some style!
 
@@ -678,7 +678,7 @@ template: overrides/main.html
     scatter.show()
     ```
 
-    <center> ![ScatterPlot2](/assets/chap1-4/03_scatterPlot2.jpg){width=800} </center>
+    <center> ![ScatterPlot2](../assets/chap1-4/03_scatterPlot2.jpg){width=800} </center>
 
     And ta-da, we can easily visualize that larger sets give the most points!
 
@@ -709,7 +709,7 @@ template: overrides/main.html
     scatter.show()
     ```
 
-    <center> ![ScatterPlot3](/assets/chap1-4/03_scatterPlot3.jpg){width=800} </center>
+    <center> ![ScatterPlot3](../assets/chap1-4/03_scatterPlot3.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -738,7 +738,7 @@ template: overrides/main.html
     scatter.show()
     ```
 
-    <center> ![ScatterPlot4](/assets/chap1-4/03_scatterPlot4.jpg){width=800} </center>
+    <center> ![ScatterPlot4](../assets/chap1-4/03_scatterPlot4.jpg){width=800} </center>
 
     > NOTE: Non-linear regression lines can be added as well! For more information, check out:
     [Plotly Trendlines](https://plotly.com/python/linear-fits/)
@@ -776,7 +776,7 @@ template: overrides/main.html
     scatter.show()
     ```
 
-    <center> ![ScatterPlot5](/assets/chap1-4/03_scatterPlot5.jpg){width=800} </center>
+    <center> ![ScatterPlot5](../assets/chap1-4/03_scatterPlot5.jpg){width=800} </center>
 
     > NOTE: For more information, make sure to check out the following:
     [Plotly Scatter](https://plotly.com/python/line-and-scatter/)
@@ -869,7 +869,7 @@ template: overrides/main.html
     app.run_server(mode='external')
     ```
 
-    <center> ![BarChart1](/assets/chap1-4/04_barChart1.jpg){width=800} </center>
+    <center> ![BarChart1](../assets/chap1-4/04_barChart1.jpg){width=800} </center>
 
     >NOTE: The `id` attribute is <font color='#DD6E0F'>optional, but it's a good practice to include a unique ID</font> for each component.
     This is especially true for updating figures, which will be covered in a later chapter, *"Confronted by Callbacks"*
@@ -936,7 +936,7 @@ template: overrides/main.html
 
     And voila, here's our result:
 
-    <center> ![Card1](/assets/chap1-4/04_card1.jpg){width=800} </center>
+    <center> ![Card1](../assets/chap1-4/04_card1.jpg){width=800} </center>
 
     Let's try changing some of the colors!
 
@@ -974,7 +974,7 @@ template: overrides/main.html
     app.run_server(mode='external')
     ```
 
-    <center> ![Card2](/assets/chap1-4/04_card2.jpg){width=800} </center>
+    <center> ![Card2](../assets/chap1-4/04_card2.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -1018,7 +1018,7 @@ template: overrides/main.html
     app.run_server(mode='external')
     ```
 
-    <center> ![Card3](/assets/chap1-4/04_card3.jpg){width=800} </center>
+    <center> ![Card3](../assets/chap1-4/04_card3.jpg){width=800} </center>
 
     There we go, much better now!
 
@@ -1278,7 +1278,7 @@ template: overrides/main.html
 
     app.run_server(mode='external')  
     ```
-    <center> ![Row1](/assets/chap1-4/04_row1.jpg){width=800} </center>
+    <center> ![Row1](../assets/chap1-4/04_row1.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -1315,7 +1315,7 @@ template: overrides/main.html
     app.run_server(mode='external')
     ```
 
-    <center> ![Row2](/assets/chap1-4/04_row2.jpg){width=800} </center>
+    <center> ![Row2](../assets/chap1-4/04_row2.jpg){width=800} </center>
 
     Alright! That looks pretty good so far! Now, let's take a look at adding columns...
 
@@ -1357,7 +1357,7 @@ template: overrides/main.html
     app.run_server(mode='external')
     ```
 
-    <center> ![Col1](/assets/chap1-4/04_col1.jpg){width=800} </center>
+    <center> ![Col1](../assets/chap1-4/04_col1.jpg){width=800} </center>
 
     As seen, the row automatically expands in length in order to accommodate for the column's
     vertical height. In order to adjust the column's width, we can use the `width` argument.
@@ -1401,7 +1401,7 @@ template: overrides/main.html
     app.run_server(mode='external')
     ```
 
-    <center> ![Col2](/assets/chap1-4/04_col2.jpg){width=800} </center>
+    <center> ![Col2](../assets/chap1-4/04_col2.jpg){width=800} </center>
 
 
     Our dashboard already looks quite stunning. All this, in just four quick chapters 🤩😄.
@@ -1440,7 +1440,7 @@ template: overrides/main.html
     app.run_server(mode='external')
     ```
 
-    <center> ![Badge1](/assets/chap5-8/05_badge1.jpg){width=800} </center>
+    <center> ![Badge1](../assets/chap5-8/05_badge1.jpg){width=800} </center>
 
     As seen, they match the size of the preceding text automatically. Additionally,
     they can include both numbers and words. When used by
@@ -1456,7 +1456,7 @@ template: overrides/main.html
     app.run_server(mode='external')
     ```
 
-    <center> ![Badge1](/assets/chap5-8/05_badge2.jpg){width=800} </center>
+    <center> ![Badge1](../assets/chap5-8/05_badge2.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -1485,7 +1485,7 @@ template: overrides/main.html
     app.run_server(mode='external')
     ```
 
-    <center> ![badge3](/assets/chap5-8/05_badge3.jpg){width=800} </center>
+    <center> ![badge3](../assets/chap5-8/05_badge3.jpg){width=800} </center>
 
     By wrapping each in an empty `html.H1()`, the size of
     each badge can be easily increased (a nice little trick 😄).
@@ -1515,7 +1515,7 @@ template: overrides/main.html
     app.run_server(mode='external')
     ```
 
-    <center> ![badge4](/assets/chap5-8/05_badge4.jpg){width=800} </center>
+    <center> ![badge4](../assets/chap5-8/05_badge4.jpg){width=800} </center>
 
     And those are the core functionalities of badges! As we'll see in the ensuing chapter (TigerGraph Tundra), they
     can come in quite handy when calling attention to text-based information...
@@ -1565,7 +1565,7 @@ template: overrides/main.html
     app.run_server(mode='external')
     ```
 
-    <center> ![HTML1](/assets/chap5-8/05_HTML1.jpg){width=800} </center>
+    <center> ![HTML1](../assets/chap5-8/05_HTML1.jpg){width=800} </center>
 
     This can be used to center any component, beyond just text and cards!
 
@@ -1590,7 +1590,7 @@ template: overrides/main.html
     app.run_server(mode='external')
     ```
 
-    <center> ![HTML2](/assets/chap5-8/05_HTML2.jpg){width=800} </center>
+    <center> ![HTML2](../assets/chap5-8/05_HTML2.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -1613,7 +1613,7 @@ template: overrides/main.html
     app.run_server(mode='external')
     ```
 
-    <center> ![HTML3](/assets/chap5-8/05_HTML3.jpg){width=350} ![HTML4](/assets/chap5-8/05_HTML4.jpg){width=350}</center>
+    <center> ![HTML3](../assets/chap5-8/05_HTML3.jpg){width=350} ![HTML4](../assets/chap5-8/05_HTML4.jpg){width=350}</center>
 
     And those are the core HTML components to help with style!
 
@@ -1642,7 +1642,7 @@ template: overrides/main.html
     app.run_server(mode='external')
     ```
 
-    <center> ![Markdown1](/assets/chap5-8/05_markdown1.jpg){width=800} </center>    
+    <center> ![Markdown1](../assets/chap5-8/05_markdown1.jpg){width=800} </center>    
 
     In order to create a title, we can simply use the `#`. **Bolded text** is performed using
     the `**` symbols, while *italics* are added via the `*` symbol. In order to create lists,
@@ -1676,7 +1676,7 @@ template: overrides/main.html
     app.run_server(mode='external')
     ```
 
-    <center> ![List1](/assets/chap5-8/05_list1.jpg){width=800} </center>   
+    <center> ![List1](../assets/chap5-8/05_list1.jpg){width=800} </center>   
 
     The `dbc.ListGroup()` element simply holds different list group items.
 
@@ -1700,7 +1700,7 @@ template: overrides/main.html
     app.run_server(mode='external')
     ```
 
-    <center> ![List2](/assets/chap5-8/05_list2.jpg){width=800} </center>   
+    <center> ![List2](../assets/chap5-8/05_list2.jpg){width=800} </center>   
 
     There we go, much better! Now let's add some style...
 
@@ -1726,7 +1726,7 @@ template: overrides/main.html
     app.run_server(mode='external')
     ```
 
-    <center> ![List3](/assets/chap5-8/05_list3.jpg){width=800} </center>   
+    <center> ![List3](../assets/chap5-8/05_list3.jpg){width=800} </center>   
 
     As with other bootstrap components, the pre-built color options carry over in name and hue.
 
@@ -1754,7 +1754,7 @@ template: overrides/main.html
     app.run_server(mode='external')
     ```
 
-    <center> ![List4](/assets/chap5-8/05_list4.jpg){width=800} </center>   
+    <center> ![List4](../assets/chap5-8/05_list4.jpg){width=800} </center>   
 
     As seen, it's just a matter of adding the `horizontal` argument to our `dbc.ListGroup()`.
 

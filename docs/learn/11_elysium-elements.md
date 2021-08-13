@@ -4,7 +4,7 @@ template: overrides/main.html
 
 # Elysium of Elements 🌈
 
-<center> ![Page11](/assets/banners/section11.svg){width=800} </center>
+<center> ![Page11](../assets/banners/section11.svg){width=800} </center>
 
 ***"Congratulations my weary friends. You've reached the <font color='#DD6E0F'>Elysium of Elements</font>***
 
@@ -70,7 +70,7 @@ The one closest to us reads *"Presenting Plotly Paradise"*...
     > NOTE: This format is similar to polar axes, where each
     point is determine in r and theta instead of x and y.
 
-    <center> ![Radar1](/assets/chap9-12/11_radar1.jpg){width=800} </center>
+    <center> ![Radar1](../assets/chap9-12/11_radar1.jpg){width=800} </center>
 
     > NOTE: For more resources on Radar Charts, feel free to check out the following resources:
     [Plotly Radar](https://plotly.com/python/radar-chart/)
@@ -98,7 +98,7 @@ The one closest to us reads *"Presenting Plotly Paradise"*...
 
     >NOTE: `np.linspace()` simply creates a list from -10 to 10, with 50 data points in between, spaced evenly.
 
-    <center> ![ThreeD1](/assets/chap9-12/11_threeDim1.jpg){width=800} </center>
+    <center> ![ThreeD1](../assets/chap9-12/11_threeDim1.jpg){width=800} </center>
 
     > NOTE: For more information on Radar Charts, feel free to check out the following resources:
     [Scatter](https://plotly.com/python/3d-scatter-plots/),
@@ -147,7 +147,7 @@ The one closest to us reads *"Presenting Plotly Paradise"*...
 
     &nbsp; &nbsp;
 
-    <center> ![Map1](/assets/chap9-12/11_map1.gif){width=800} </center>
+    <center> ![Map1](../assets/chap9-12/11_map1.gif){width=800} </center>
 
     As seen, it's quite a detailed, interactive map!
 
@@ -195,7 +195,7 @@ We turn to the next booth and continue reading...
     app.run_server(mode='external')
     ```
 
-    <center> ![Progress1](/assets/chap9-12/11_progress1.jpg){width=800} </center>
+    <center> ![Progress1](../assets/chap9-12/11_progress1.jpg){width=800} </center>
 
     As seen, each bar section has a <font color='#DD6E0F'>different color and length</font> (`value`).
 
@@ -237,7 +237,7 @@ We turn to the next booth and continue reading...
     app.run_server(mode='external')
     ```
 
-    <center> ![Progress1](/assets/chap9-12/11_progress1.gif){width=800} </center>
+    <center> ![Progress1](../assets/chap9-12/11_progress1.gif){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -277,7 +277,7 @@ We turn to the next booth and continue reading...
     app.run_server(mode='external')
     ```
 
-    <center> ![Spinner1](/assets/chap9-12/11_spinner1.gif){width=800} </center>
+    <center> ![Spinner1](../assets/chap9-12/11_spinner1.gif){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -315,7 +315,7 @@ We turn to the next booth and continue reading...
     app.run_server(mode='external')
     ```
 
-    <center> ![Spinner2](/assets/chap9-12/11_spinner2.gif){width=800} </center>
+    <center> ![Spinner2](../assets/chap9-12/11_spinner2.gif){width=800} </center>
 
     > NOTE: For more information on spinners, feel free to check out the following resources:
     [Dash Spinners](https://dash-bootstrap-components.opensource.faculty.ai/docs/components/spinner/)
@@ -344,7 +344,7 @@ We turn to the next booth and continue reading...
     app.run_server(mode='external')
     ```
 
-    <center> ![Alert1](/assets/chap9-12/11_alert1.gif){width=800} </center>
+    <center> ![Alert1](../assets/chap9-12/11_alert1.gif){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -389,7 +389,7 @@ We turn to the next booth and continue reading...
     app.run_server(mode='external')
     ```
 
-    <center> ![Alert2](/assets/chap9-12/11_alert2.gif){width=800} </center>
+    <center> ![Alert2](../assets/chap9-12/11_alert2.gif){width=800} </center>
 
     &nbsp; &nbsp;
 

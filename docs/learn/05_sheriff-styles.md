@@ -4,7 +4,7 @@ template: overrides/main.html
 
 # Sheriff Styles ⭐️
 
-<center> ![Page5](/assets/banners/section5.svg){width=800} </center>
+<center> ![Page5](../assets/banners/section5.svg){width=800} </center>
 
 *"I’m <font color='#DD6E0F'>Sheriff Styles</font>, in charge of all things related to design. Now see here, you fellers wouldn't happen to be on a <font color='#DD6E0F'>quest to create the ultimate dashboard</font>, now would yalls’?”*
 
@@ -40,7 +40,7 @@ She beckoned to a nearby treestump. *“Now take a seat and pay close attention 
     app.run_server(mode='external')
     ```
 
-    <center> ![Badge1](/assets/chap5-8/05_badge1.jpg){width=800} </center>
+    <center> ![Badge1](../assets/chap5-8/05_badge1.jpg){width=800} </center>
 
     As seen, they match the size of the preceding text automatically. Additionally,
     they can include both numbers and words. When used by
@@ -56,7 +56,7 @@ She beckoned to a nearby treestump. *“Now take a seat and pay close attention 
     app.run_server(mode='external')
     ```
 
-    <center> ![Badge1](/assets/chap5-8/05_badge2.jpg){width=800} </center>
+    <center> ![Badge1](../assets/chap5-8/05_badge2.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -85,7 +85,7 @@ She beckoned to a nearby treestump. *“Now take a seat and pay close attention 
     app.run_server(mode='external')
     ```
 
-    <center> ![badge3](/assets/chap5-8/05_badge3.jpg){width=800} </center>
+    <center> ![badge3](../assets/chap5-8/05_badge3.jpg){width=800} </center>
 
     By wrapping each in an empty `html.H1()`, the size of
     each badge can be easily increased (a nice little trick 😄).
@@ -115,7 +115,7 @@ She beckoned to a nearby treestump. *“Now take a seat and pay close attention 
     app.run_server(mode='external')
     ```
 
-    <center> ![badge4](/assets/chap5-8/05_badge4.jpg){width=800} </center>
+    <center> ![badge4](../assets/chap5-8/05_badge4.jpg){width=800} </center>
 
     And those are the core functionalities of badges! As we'll see in the ensuing chapter (TigerGraph Tundra), they
     can come in quite handy when calling attention to text-based information...
@@ -168,7 +168,7 @@ The Sheriff continues onwards...
     app.run_server(mode='external')
     ```
 
-    <center> ![HTML1](/assets/chap5-8/05_HTML1.jpg){width=800} </center>
+    <center> ![HTML1](../assets/chap5-8/05_HTML1.jpg){width=800} </center>
 
     This can be used to center any component, beyond just text and cards!
 
@@ -193,7 +193,7 @@ The Sheriff continues onwards...
     app.run_server(mode='external')
     ```
 
-    <center> ![HTML2](/assets/chap5-8/05_HTML2.jpg){width=800} </center>
+    <center> ![HTML2](../assets/chap5-8/05_HTML2.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -216,7 +216,7 @@ The Sheriff continues onwards...
     app.run_server(mode='external')
     ```
 
-    <center> ![HTML3](/assets/chap5-8/05_HTML3.jpg){width=350} ![HTML4](/assets/chap5-8/05_HTML4.jpg){width=350}</center>
+    <center> ![HTML3](../assets/chap5-8/05_HTML3.jpg){width=350} ![HTML4](../assets/chap5-8/05_HTML4.jpg){width=350}</center>
 
     And those are the core HTML components to help with style!
 
@@ -247,7 +247,7 @@ The Sheriff continues onwards...
     app.run_server(mode='external')
     ```
 
-    <center> ![Markdown1](/assets/chap5-8/05_markdown1.jpg){width=800} </center>    
+    <center> ![Markdown1](../assets/chap5-8/05_markdown1.jpg){width=800} </center>    
 
     In order to create a title, we can simply use the `#`. **Bolded text** is performed using
     the `**` symbols, while *italics* are added via the `*` symbol. In order to create lists,
@@ -286,7 +286,7 @@ The Sheriff continues onwards...
     app.run_server(mode='external')
     ```
 
-    <center> ![List1](/assets/chap5-8/05_list1.jpg){width=800} </center>   
+    <center> ![List1](../assets/chap5-8/05_list1.jpg){width=800} </center>   
 
     The `dbc.ListGroup()` element simply holds different list group items.
 
@@ -310,7 +310,7 @@ The Sheriff continues onwards...
     app.run_server(mode='external')
     ```
 
-    <center> ![List2](/assets/chap5-8/05_list2.jpg){width=800} </center>   
+    <center> ![List2](../assets/chap5-8/05_list2.jpg){width=800} </center>   
 
     There we go, much better! Now let's add some style...
 
@@ -336,7 +336,7 @@ The Sheriff continues onwards...
     app.run_server(mode='external')
     ```
 
-    <center> ![List3](/assets/chap5-8/05_list3.jpg){width=800} </center>   
+    <center> ![List3](../assets/chap5-8/05_list3.jpg){width=800} </center>   
 
     As with other bootstrap components, the pre-built color options carry over in name and hue.
 
@@ -364,7 +364,7 @@ The Sheriff continues onwards...
     app.run_server(mode='external')
     ```
 
-    <center> ![List4](/assets/chap5-8/05_list4.jpg){width=800} </center>   
+    <center> ![List4](../assets/chap5-8/05_list4.jpg){width=800} </center>   
 
     As seen, it's just a matter of adding the `horizontal` argument to our `dbc.ListGroup()`.
 

@@ -4,7 +4,7 @@ template: overrides/main.html
 
 # Presenting Port Plotly 🧱
 
-<center> ![Page3](/assets/banners/section3.svg){width=800} </center>
+<center> ![Page3](../assets/banners/section3.svg){width=800} </center>
 
 Looking around, there are hundreds of stalls set up throughout the port, each
 with a different banner and symbol hung up next to them. A sign labelled <font color='#DD6E0F'> ***Visitor's Guide*** </font> catches our eyes. Approaching it, we find a
@@ -96,9 +96,9 @@ With no other leads, we set off for the marketplace. First shop, *"Buster's Bar 
 
     In both cases, we get the same result. And voila, here are our two bar charts!
 
-    <center> ![BarChart1](/assets/chap1-4/03_barChart1.jpg){width=800} </center>
+    <center> ![BarChart1](../assets/chap1-4/03_barChart1.jpg){width=800} </center>
 
-    <center> ![BarChart2](/assets/chap1-4/03_barChart2.jpg){width=800} </center>
+    <center> ![BarChart2](../assets/chap1-4/03_barChart2.jpg){width=800} </center>
 
     Ahh, you may have noticed a small difference: **the axis labels!**
 
@@ -139,7 +139,7 @@ With no other leads, we set off for the marketplace. First shop, *"Buster's Bar 
     bar.show()
     ```
 
-    <center> ![BarChart3](/assets/chap1-4/03_barChart3.jpg){width=800} </center>
+    <center> ![BarChart3](../assets/chap1-4/03_barChart3.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -157,7 +157,7 @@ With no other leads, we set off for the marketplace. First shop, *"Buster's Bar 
     bar.show()
     ```
 
-    <center> ![BarChart4](/assets/chap1-4/03_barChart4.jpg){width=800} </center>
+    <center> ![BarChart4](../assets/chap1-4/03_barChart4.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -175,7 +175,7 @@ With no other leads, we set off for the marketplace. First shop, *"Buster's Bar 
     bar.show()
     ```
 
-    <center> ![BarChart5](/assets/chap1-4/03_barChart5.jpg){width=800} </center>
+    <center> ![BarChart5](../assets/chap1-4/03_barChart5.jpg){width=800} </center>
 
 
     As seen, it's just a matter of adding the **"color"** argument!
@@ -196,7 +196,7 @@ With no other leads, we set off for the marketplace. First shop, *"Buster's Bar 
     bar.show()
     ```
 
-    <center> ![BarChart6](/assets/chap1-4/03_barChart6.jpg){width=800} </center>
+    <center> ![BarChart6](../assets/chap1-4/03_barChart6.jpg){width=800} </center>
 
     > NOTE: As mentioned in the above comments, we've had to <font color='#DD6E0F'>switch the axes in this horizontal layout!</font>
 
@@ -215,7 +215,7 @@ With no other leads, we set off for the marketplace. First shop, *"Buster's Bar 
     bar.show()
     ```
 
-    <center> ![BarChart7](/assets/chap1-4/03_barChart7.jpg){width=800} </center>
+    <center> ![BarChart7](../assets/chap1-4/03_barChart7.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -246,7 +246,7 @@ With no other leads, we set off for the marketplace. First shop, *"Buster's Bar 
     bar.show()
     ```
 
-    <center> ![BarChart8](/assets/chap1-4/03_barChart8.jpg){width=800} </center>
+    <center> ![BarChart8](../assets/chap1-4/03_barChart8.jpg){width=800} </center>
 
     > NOTE: For more information, make sure to check out the following:
     [Plotly Bar Charts](https://plotly.com/python/bar-charts/),
@@ -309,9 +309,9 @@ Walking over, we pull out our laptop and continue our notes...
 
     In both cases, we get the same result. And voila, here are our two line charts!
 
-    <center> ![BarChart1](/assets/chap1-4/03_lineChart1.jpg){width=800} </center>
+    <center> ![BarChart1](../assets/chap1-4/03_lineChart1.jpg){width=800} </center>
 
-    <center> ![BarChart2](/assets/chap1-4/03_lineChart2.jpg){width=800} </center>
+    <center> ![BarChart2](../assets/chap1-4/03_lineChart2.jpg){width=800} </center>
 
     ### Styling Figure
 
@@ -349,7 +349,7 @@ Walking over, we pull out our laptop and continue our notes...
     ```
     Each trace adds a new line (the name `go.Scatter()` is a bit misleading!)
 
-    <center> ![LineChart3](/assets/chap1-4/03_lineChart3.jpg){width=800} </center>
+    <center> ![LineChart3](../assets/chap1-4/03_lineChart3.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -373,7 +373,7 @@ Walking over, we pull out our laptop and continue our notes...
     Adding the `marker=dict(color='MediumPurple')` dictionary allows us to change the color of the two traces.
     Additionally, the `name` argument lets us distinguish and label the two traces. Here's the result!
 
-    <center> ![LineChart4](/assets/chap1-4/03_lineChart4.jpg){width=800} </center>
+    <center> ![LineChart4](../assets/chap1-4/03_lineChart4.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -399,7 +399,7 @@ Walking over, we pull out our laptop and continue our notes...
 
     As seen below, the size and symbols for each trace can be customized as well!
 
-    <center> ![LineChart5](/assets/chap1-4/03_lineChart5.jpg){width=800} </center>
+    <center> ![LineChart5](../assets/chap1-4/03_lineChart5.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -433,7 +433,7 @@ Walking over, we pull out our laptop and continue our notes...
     line.show()
     ```
 
-    <center> ![LineChart6](/assets/chap1-4/03_lineChart6.jpg){width=800} </center>
+    <center> ![LineChart6](../assets/chap1-4/03_lineChart6.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -495,9 +495,9 @@ Laptop opened, we begin to listen...
 
     In both cases, we get the same result. And voila, here are our two bar charts!
 
-    <center> ![PieChart1](/assets/chap1-4/03_pieChart1.jpg){width=800} </center>
+    <center> ![PieChart1](../assets/chap1-4/03_pieChart1.jpg){width=800} </center>
 
-    <center> ![PieChart1](/assets/chap1-4/03_pieChart1.jpg){width=800} </center>
+    <center> ![PieChart1](../assets/chap1-4/03_pieChart1.jpg){width=800} </center>
 
     Unlike with bar charts and line charts, there are truly no differences between
     each!
@@ -533,7 +533,7 @@ Laptop opened, we begin to listen...
     pie.show()
     ```
 
-    <center> ![PieChart2](/assets/chap1-4/03_pieChart2.jpg){width=800} </center>
+    <center> ![PieChart2](../assets/chap1-4/03_pieChart2.jpg){width=800} </center>
 
     The title can be centered with the `title_x` argument, which ranges from 0 to 1.
     Therefore, setting its value to 0.5 will result in a centered title. Additionally,
@@ -556,7 +556,7 @@ Laptop opened, we begin to listen...
 
     And here's our centered title (relative to the pie chart).
 
-    <center> ![PieChart3](/assets/chap1-4/03_pieChart3.jpg){width=800} </center>
+    <center> ![PieChart3](../assets/chap1-4/03_pieChart3.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -582,7 +582,7 @@ Laptop opened, we begin to listen...
     pie.show()
     ```
 
-    <center> ![PieChart4](/assets/chap1-4/03_pieChart4.jpg){width=800} </center>
+    <center> ![PieChart4](../assets/chap1-4/03_pieChart4.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -609,7 +609,7 @@ Laptop opened, we begin to listen...
     pie.show()
     ```
 
-    <center> ![PieChart5](/assets/chap1-4/03_pieChart5.jpg){width=800} </center>
+    <center> ![PieChart5](../assets/chap1-4/03_pieChart5.jpg){width=800} </center>
 
     The length of `pull` matches the length of `animals`.
 
@@ -640,7 +640,7 @@ Laptop opened, we begin to listen...
     pie.show()  
     ```
 
-    <center> ![PieChart6](/assets/chap1-4/03_pieChart6.jpg){width=800} </center>
+    <center> ![PieChart6](../assets/chap1-4/03_pieChart6.jpg){width=800} </center>
 
     Neat! And with that, we have a rather fancy pie chart put together in less than a dozen lines of code!
 
@@ -690,7 +690,7 @@ Walking over, we're greeted by a beaming clerk with the initials "S.S.".
     scatter.show()
     ```
 
-    <center> ![ScatterPlot1](/assets/chap1-4/03_scatterPlot1.jpg){width=800} </center>
+    <center> ![ScatterPlot1](../assets/chap1-4/03_scatterPlot1.jpg){width=800} </center>
 
     Looking good, but let's add some style!
 
@@ -724,7 +724,7 @@ Walking over, we're greeted by a beaming clerk with the initials "S.S.".
     scatter.show()
     ```
 
-    <center> ![ScatterPlot2](/assets/chap1-4/03_scatterPlot2.jpg){width=800} </center>
+    <center> ![ScatterPlot2](../assets/chap1-4/03_scatterPlot2.jpg){width=800} </center>
 
     And ta-da, we can easily visualize that larger sets give the most points!
 
@@ -755,7 +755,7 @@ Walking over, we're greeted by a beaming clerk with the initials "S.S.".
     scatter.show()
     ```
 
-    <center> ![ScatterPlot3](/assets/chap1-4/03_scatterPlot3.jpg){width=800} </center>
+    <center> ![ScatterPlot3](../assets/chap1-4/03_scatterPlot3.jpg){width=800} </center>
 
     &nbsp; &nbsp;
 
@@ -784,7 +784,7 @@ Walking over, we're greeted by a beaming clerk with the initials "S.S.".
     scatter.show()
     ```
 
-    <center> ![ScatterPlot4](/assets/chap1-4/03_scatterPlot4.jpg){width=800} </center>
+    <center> ![ScatterPlot4](../assets/chap1-4/03_scatterPlot4.jpg){width=800} </center>
 
     > NOTE: Non-linear regression lines can be added as well! For more information, check out:
     [Plotly Trendlines](https://plotly.com/python/linear-fits/)
@@ -822,7 +822,7 @@ Walking over, we're greeted by a beaming clerk with the initials "S.S.".
     scatter.show()
     ```
 
-    <center> ![ScatterPlot5](/assets/chap1-4/03_scatterPlot5.jpg){width=800} </center>
+    <center> ![ScatterPlot5](../assets/chap1-4/03_scatterPlot5.jpg){width=800} </center>
 
     > NOTE: For more information, make sure to check out the following:
     [Plotly Scatter](https://plotly.com/python/line-and-scatter/)
